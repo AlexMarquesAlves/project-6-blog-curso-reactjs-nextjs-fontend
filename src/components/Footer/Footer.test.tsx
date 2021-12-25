@@ -18,7 +18,7 @@ describe('<Footer />', () => {
         text-decoration: none;
       }
 
-      500;700&display=swap'); .c1 {
+      .c1 {
         font-size: 2.4rem;
       }
 
@@ -44,7 +44,7 @@ describe('<Footer />', () => {
       .c1 pre {
         background: #000000;
         padding: 2.4rem;
-        font-family: 'Fira Code';
+        font-family: monospace;
         color: #FFFFFF;
         margin: 4.0rem 0;
         width: 100%;

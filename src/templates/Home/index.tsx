@@ -1,5 +1,9 @@
 import * as Styled from './styles';
 
 export function Home() {
-  return <Styled.Wrapper></Styled.Wrapper>;
+  return (
+    <Styled.Wrapper>
+      <h1>Oi</h1>
+    </Styled.Wrapper>
+  );
 }

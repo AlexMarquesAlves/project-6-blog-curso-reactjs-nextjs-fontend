@@ -11,7 +11,7 @@ describe('<TextComponent />', () => {
   it('should match snapshot', () => {
     const { container } = renderTheme(<HtmlContent html={'<b>Children</b>'} />);
     expect(container.firstChild).toMatchInlineSnapshot(`
-      500;700&display=swap'); .c0 {
+      .c0 {
         font-size: 2.4rem;
       }
 
@@ -37,7 +37,7 @@ describe('<TextComponent />', () => {
       .c0 pre {
         background: #000000;
         padding: 2.4rem;
-        font-family: 'Fira Code';
+        font-family: monospace;
         color: #FFFFFF;
         margin: 4.0rem 0;
         width: 100%;
