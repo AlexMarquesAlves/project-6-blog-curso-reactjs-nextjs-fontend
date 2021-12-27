@@ -25,6 +25,8 @@ exports[`<Menu /> should match snapshot 1`] = `
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
   overflow-y: auto;
+  left: -30rem;
+  overflow-y: hidden;
 }
 
 .c3 {
@@ -58,6 +60,10 @@ exports[`<Menu /> should match snapshot 1`] = `
   width: 3rem;
   height: 3rem;
   left: 26rem;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  left: 1rem;
+  color: #FFFFFF;
 }
 
 .c1 {
@@ -101,6 +107,18 @@ exports[`<Menu /> should match snapshot 1`] = `
 .c8:hover: {
   border-right: 0.5rem solid #dc143c;
   color: #dc143c;
+}
+
+@media (max-width:768px) {
+  .c2 {
+    left: -32rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    left: 1rem;
+  }
 }
 
 <div>
