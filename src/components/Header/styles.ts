@@ -12,6 +12,7 @@ export const Wrapper = styled.header`
     color: ${theme.colors.darkText};
     font-size: ${theme.font.sizes.small};
     margin: 0 auto;
+
     ${HeadingStyles} {
       margin: 0 0 calc(${theme.spacings.small} - 1rem);
     }

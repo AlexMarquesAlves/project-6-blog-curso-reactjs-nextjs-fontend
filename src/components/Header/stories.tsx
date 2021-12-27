@@ -13,7 +13,6 @@ export const Template: Story<HeaderProps> = (args) => {
   return (
     <div>
       <Header {...args} />
-      <Header {...args} />
     </div>
   );
 };

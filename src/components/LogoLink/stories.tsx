@@ -6,8 +6,9 @@ export default {
   component: LogoLink,
   args: {
     text: 'LogoLink',
-    srcImg: 'assets/images/Logo.jpg',
+    srcImg: 'assets/images/otavio-miranda.png',
     link: 'http://localhost',
+    newTab: false,
   },
 } as Meta;
 

@@ -1,6 +1,6 @@
-import * as Styled from './styles';
 import { ArticleHeader, ArticleHeaderProps } from '../ArticleHeader';
 import { HtmlContent } from '../HtmlContent';
+import * as Styled from './styles';
 
 export type PostProps = ArticleHeaderProps & {
   content: string;
@@ -22,10 +22,10 @@ export const Post = ({
         author={author}
         categories={categories}
         title={title}
-        cover={cover}
-        createdAt={createdAt}
         excerpt={excerpt}
         id={id}
+        cover={cover}
+        createdAt={createdAt}
       />
       <HtmlContent html={content} />
     </Styled.Wrapper>

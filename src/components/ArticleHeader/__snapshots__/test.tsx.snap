@@ -32,7 +32,8 @@ exports[
 
 .c2 {
   color: #000000;
-  font-size: 4.0rem;
+  line-height: 1.2;
+  font-size: 6.4rem;
   text-transform: none;
 }
 
@@ -57,6 +58,12 @@ exports[
   margin-bottom: 2.4rem;
 }
 
+@media (max-width:768px) {
+  .c2 {
+    font-size: 4.0rem;
+  }
+}
+
 <div>
   <header
     class="c0"
@@ -64,17 +71,17 @@ exports[
     <h1
       class="c1 c2"
     >
-      Blockchain
+      Vis nobis veritus maluisset id, nonumy adversarium
     </h1>
     <p
       class="c3"
     >
-      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..." "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+      Fugit aliquip erroribus eu eam, an mel vidit doctus. Vis nobis veritus maluisset id, nonumy adversarium neglegentur est ut. Tation persius pri eu, modo minim fastidii mei no. Ad tota pertinax definiebas eam.
     </p>
     <img
-      alt="Blockchain"
+      alt="Vis nobis veritus maluisset id, nonumy adversarium"
       class="c4"
-      src="https://res.cloudinary.com/dbjegw4i5/image/upload/v1640289938/quantitatives_io_k_M6_Q_Nrgo0_YE_unsplash_acd3a65d79.jpg"
+      src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614698965/Ubuntu_gel_by_Midge_Mantissa_Sinnaeve_7caea7ddb4.jpg"
     />
     <div
       class="c5"
@@ -84,9 +91,9 @@ exports[
           Por 
         </span>
         <a
-          href="/author/joao-silva"
+          href="/author/otavio-miranda"
         >
-          João Silva
+          Otávio Miranda
         </a>
         <span
           class="separator"
@@ -108,9 +115,17 @@ exports[
         >
           <span>
             <a
-              href="/category/python"
+              href="/category/java-script"
             >
-              Python
+              JavaScript
+               
+            </a>
+          </span>
+          <span>
+            <a
+              href="/category/react"
+            >
+              React
                
             </a>
           </span>
