@@ -1,6 +1,6 @@
 import { Author } from '../../shared-typed/author';
 import { Category } from '../../shared-typed/category';
-import { formateDate } from '../../utils/formate-date';
+import { formatDate } from '../../utils/format-date';
 import * as Styled from './styles';
 
 export type ArticleMetaProps = {
@@ -20,7 +20,7 @@ export const ArticleMeta = ({
         <span>Por </span>
         <a href={`/author/${author.slug}`}>{author.displayName}</a>
         <span className="separator"> | </span>
-        <time dateTime={createdAt}>{formateDate(createdAt)}</time>
+        <time dateTime={createdAt}>{formatDate(createdAt)}</time>
         <span className="separator"> | </span>
 
         <span className="categories">
