@@ -5,7 +5,7 @@ import { LogoLink } from '../LogoLink';
 import { MenuLink } from '../MenuLink';
 import { useState } from 'react';
 
-export type MenuPropslinks = {
+export type MenuPropsLinks = {
   id: string;
   link: string;
   newTab?: boolean;
@@ -13,7 +13,7 @@ export type MenuPropslinks = {
 };
 
 export type MenuProps = {
-  links: MenuPropslinks[];
+  links: MenuPropsLinks[];
   blogName: string;
   logo: string;
 };

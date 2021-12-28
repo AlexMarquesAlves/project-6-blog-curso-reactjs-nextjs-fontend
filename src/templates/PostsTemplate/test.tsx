@@ -11,6 +11,7 @@ describe('<PostsTemplate />', () => {
 
     expect(container).toMatchSnapshot();
   });
+
   it('should match snapshot without posts', () => {
     const { container } = renderTheme(
       <PostsTemplate {...props} posts={undefined} />,

@@ -1,6 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<PostTemplate /> should match snapshot 1`] = `
+.c22 {
+  padding: 0 3.2rem;
+}
+
 .c19 {
   font-size: 1.6rem;
   color: #aaaaaa;
@@ -194,6 +198,39 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   max-width: 80rem;
 }
 
+.c23 {
+  margin: 2.4rem 0;
+}
+
+.c23 span {
+  margin: 0 0 0 1rem;
+}
+
+.c23 span::before {
+  content: ' ';
+}
+
+.c23 span::after {
+  content: ', ';
+}
+
+.c23 span:last-child::after {
+  content: '';
+}
+
+.c23 a {
+  color: #dc143c;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c23 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
 .c25 {
   text-align: center;
   border-top: 0.1rem solid #DDDDDD;
@@ -384,43 +421,6 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   padding: 3.2rem;
 }
 
-.c23 {
-  margin: 2.4rem 0;
-}
-
-.c23 span {
-  margin: 0 0 0 1rem;
-}
-
-.c23 span::before {
-  content: ' ';
-}
-
-.c23 span::after {
-  content: ', ';
-}
-
-.c23 span:last-child::after {
-  content: '';
-}
-
-.c23 a {
-  color: #dc143c;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-}
-
-.c23 a:hover {
-  -webkit-filter: brightness(50%);
-  filter: brightness(50%);
-}
-
-.c22 {
-  padding: 0 3.2rem;
-}
-
 @media (max-width:768px) {
   .c16 {
     font-size: 4.0rem;
@@ -436,6 +436,18 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
     max-width: 100%;
     float: none;
     margin: 0;
+  }
+}
+
+@media (max-width:768px) {
+  .c14 {
+    padding: 0 calc(3.2rem / 2);
+  }
+}
+
+@media (max-width:768px) {
+  .c20 {
+    padding: 0 calc(3.2rem / 2);
   }
 }
 
