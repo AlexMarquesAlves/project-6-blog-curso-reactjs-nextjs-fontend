@@ -85,7 +85,7 @@ exports[`<Header /> should match snapshot 1`] = `
         target="_self"
       >
         <img
-          alt="Alex M. ALves - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+          alt="Otávio Miranda - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
           src="/assets/images/otavio-miranda.png"
         />
       </a>
@@ -96,7 +96,7 @@ exports[`<Header /> should match snapshot 1`] = `
       <h2
         class="c1 c5"
       >
-        Alex M. ALves
+        Otávio Miranda
       </h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.

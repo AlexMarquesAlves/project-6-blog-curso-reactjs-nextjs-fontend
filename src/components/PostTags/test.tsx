@@ -14,12 +14,13 @@ describe('<PostTags />', () => {
     expect(screen.getAllByRole('link')).toHaveLength(2);
   });
 
-  it('should match snapshot', () => {
+  it('should should match snapshot', () => {
     const { container } = renderTheme(<PostTags {...props} />);
 
     expect(container).toMatchSnapshot();
   });
-  it('should match snapshot without tags', () => {
+
+  it('should should match snapshot with no tags', () => {
     const { container } = renderTheme(<PostTags {...props} tags={undefined} />);
 
     expect(container).toMatchSnapshot();

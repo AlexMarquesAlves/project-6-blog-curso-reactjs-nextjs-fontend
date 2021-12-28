@@ -6,7 +6,7 @@ export default {
   component: LogoLink,
   args: {
     text: 'LogoLink',
-    srcImg: 'assets/images/otavio-miranda.png',
+    srcImg: 'assets/images/leo.png',
     link: 'http://localhost',
     newTab: false,
   },

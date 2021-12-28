@@ -5,15 +5,17 @@ export const Wrapper = styled.p`
     margin: ${theme.spacings.medium} 0;
 
     span {
-      margin: 0 0 0 1rem;
+      margin: 0 0 0 0.5rem;
     }
 
     span::before {
       content: ' ';
     }
+
     span::after {
       content: ', ';
     }
+
     span:last-child::after {
       content: '';
     }

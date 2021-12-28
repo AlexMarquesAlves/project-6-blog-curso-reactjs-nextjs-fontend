@@ -29,11 +29,11 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c16:hover > a {
+.c16:hover a {
   color: #dc143c;
 }
 
-.c16:hover > img {
+.c16:hover img {
   opacity: 0.8;
 }
 
@@ -54,17 +54,6 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   grid-template-columns: repeat(auto-fill,minmax(28rem,1fr));
   gap: 3.2rem;
   padding: 3.2rem;
-}
-
-.c19 {
-  text-align: center;
-  border-top: 0.1rem solid #DDDDDD;
-}
-
-.c19 a {
-  color: inherit;
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c20 {
@@ -169,12 +158,23 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 
 .c20 blockquote {
   border-left: 0.5rem solid #dc143c;
-  color: #aaaaaa;
+  color: #AAAAAA;
   -webkit-filter: brightness(80%);
   filter: brightness(80%);
   padding-left: 2.4rem;
   font-style: italic;
   margin: 2.4rem;
+}
+
+.c19 {
+  text-align: center;
+  border-top: 0.1rem solid #DDDDDD;
+}
+
+.c19 a {
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .c21 {
@@ -263,6 +263,23 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   max-width: 48rem;
 }
 
+.c8 {
+  display: block;
+  color: #FFFFFF;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin-bottom: 1.6rem;
+  font-size: 1.8rem;
+  border-right: 0.5rem solid #000000;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c8:hover {
+  border-right: 0.5rem solid #dc143c;
+  color: #dc143c;
+}
+
 .c2 {
   background: #000000;
   padding: 3.2rem;
@@ -321,23 +338,6 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
   color: #FFFFFF;
 }
 
-.c8 {
-  display: block;
-  color: #FFFFFF;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  margin-bottom: 1.6rem;
-  font-size: 1.8rem;
-  border-right: 0.5rem solid #000000;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-}
-
-.c8:hover: {
-  border-right: 0.5rem solid #dc143c;
-  color: #dc143c;
-}
-
 .c9 {
   margin-top: 6.4rem;
 }
@@ -382,7 +382,7 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
 
 @media (max-width:768px) {
   .c0 {
-    left: 1rem;
+    left: -0.5rem;
   }
 }
 
@@ -433,7 +433,7 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
               target="_self"
             >
               <img
-                alt="Alex M. Alves"
+                alt="Otávio Miranda"
                 src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614698965/Ubuntu_gel_by_Midge_Mantissa_Sinnaeve_7caea7ddb4.jpg"
               />
             </a>
@@ -470,7 +470,7 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
             target="_self"
           >
             <img
-              alt="Alex M. Alves - Uma descrição para o seu blog."
+              alt="Otávio Miranda - Uma descrição para o seu blog."
               src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614698965/Ubuntu_gel_by_Midge_Mantissa_Sinnaeve_7caea7ddb4.jpg"
             />
           </a>
@@ -481,7 +481,7 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
           <h2
             class="c5 c12"
           >
-            Alex M. Alves
+            Otávio Miranda
           </h2>
           <p>
             Uma descrição para o seu blog.
@@ -513,7 +513,9 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
             <h2
               class="c5 c12"
             >
-              <a>
+              <a
+                href="/post/vis-nobis-veritus-maluisset-id-nonumy-adversarium"
+              >
                 Vis nobis veritus maluisset id, nonumy adversarium
               </a>
             </h2>
@@ -538,7 +540,9 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
             <h2
               class="c5 c12"
             >
-              <a>
+              <a
+                href="/post/sea-array-destructuring-dicat-fabulas-consetetur"
+              >
                 Sea Array Destructuring dicat fabulas consetetur 
               </a>
             </h2>
@@ -563,7 +567,9 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
             <h2
               class="c5 c12"
             >
-              <a>
+              <a
+                href="/post/quod-oblique-mei-ne-cetero-delicatissimi-sea"
+              >
                 Quod oblique mei ne, cetero delicatissimi sea
               </a>
             </h2>
@@ -575,7 +581,6 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
           </div>
         </div>
       </div>
-       
     </div>
     <div
       class="c18"
@@ -651,17 +656,6 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   grid-template-columns: repeat(auto-fill,minmax(28rem,1fr));
   gap: 3.2rem;
   padding: 3.2rem;
-}
-
-.c18 {
-  text-align: center;
-  border-top: 0.1rem solid #DDDDDD;
-}
-
-.c18 a {
-  color: inherit;
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c19 {
@@ -766,12 +760,23 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
 
 .c19 blockquote {
   border-left: 0.5rem solid #dc143c;
-  color: #aaaaaa;
+  color: #AAAAAA;
   -webkit-filter: brightness(80%);
   filter: brightness(80%);
   padding-left: 2.4rem;
   font-style: italic;
   margin: 2.4rem;
+}
+
+.c18 {
+  text-align: center;
+  border-top: 0.1rem solid #DDDDDD;
+}
+
+.c18 a {
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .c20 {
@@ -860,6 +865,23 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   max-width: 48rem;
 }
 
+.c8 {
+  display: block;
+  color: #FFFFFF;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin-bottom: 1.6rem;
+  font-size: 1.8rem;
+  border-right: 0.5rem solid #000000;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c8:hover {
+  border-right: 0.5rem solid #dc143c;
+  color: #dc143c;
+}
+
 .c2 {
   background: #000000;
   padding: 3.2rem;
@@ -918,23 +940,6 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
   color: #FFFFFF;
 }
 
-.c8 {
-  display: block;
-  color: #FFFFFF;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  margin-bottom: 1.6rem;
-  font-size: 1.8rem;
-  border-right: 0.5rem solid #000000;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-}
-
-.c8:hover: {
-  border-right: 0.5rem solid #dc143c;
-  color: #dc143c;
-}
-
 .c9 {
   margin-top: 6.4rem;
 }
@@ -979,7 +984,7 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
 
 @media (max-width:768px) {
   .c0 {
-    left: 1rem;
+    left: -0.5rem;
   }
 }
 
@@ -1030,7 +1035,7 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
               target="_self"
             >
               <img
-                alt="Alex M. Alves"
+                alt="Otávio Miranda"
                 src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614698965/Ubuntu_gel_by_Midge_Mantissa_Sinnaeve_7caea7ddb4.jpg"
               />
             </a>
@@ -1067,7 +1072,7 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
             target="_self"
           >
             <img
-              alt="Alex M. Alves - Uma descrição para o seu blog."
+              alt="Otávio Miranda - Uma descrição para o seu blog."
               src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614698965/Ubuntu_gel_by_Midge_Mantissa_Sinnaeve_7caea7ddb4.jpg"
             />
           </a>
@@ -1078,7 +1083,7 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
           <h2
             class="c5 c12"
           >
-            Alex M. Alves
+            Otávio Miranda
           </h2>
           <p>
             Uma descrição para o seu blog.
@@ -1101,7 +1106,6 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
           class="c16"
         />
       </div>
-       
     </div>
     <div
       class="c17"

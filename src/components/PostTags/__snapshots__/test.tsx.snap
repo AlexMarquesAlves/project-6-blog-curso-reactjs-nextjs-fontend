@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<PostTags /> should match snapshot 1`] = `
+exports[`<PostTags /> should should match snapshot 1`] = `
 .c0 {
   margin: 2.4rem 0;
 }
 
 .c0 span {
-  margin: 0 0 0 1rem;
+  margin: 0 0 0 0.5rem;
 }
 
 .c0 span::before {
@@ -39,7 +39,6 @@ exports[`<PostTags /> should match snapshot 1`] = `
     class="c0"
   >
     tags:
-      
     <span>
       <a
         href="/tag/use-effect"
@@ -58,4 +57,4 @@ exports[`<PostTags /> should match snapshot 1`] = `
 </div>
 `;
 
-exports[`<PostTags /> should match snapshot without tags 1`] = `<div />`;
+exports[`<PostTags /> should should match snapshot with no tags 1`] = `<div />`;

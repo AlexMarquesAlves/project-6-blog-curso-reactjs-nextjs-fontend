@@ -8,16 +8,18 @@ export const Wrapper = styled.div`
       margin-top: calc(${theme.spacings.small} - 0.6rem);
       margin-bottom: ${theme.spacings.small};
     }
+
     a {
       text-decoration: none;
       color: inherit;
       transition: all 300ms ease-in-out;
     }
 
-    &:hover > a {
+    &:hover a {
       color: ${theme.colors.secondary};
     }
-    &:hover > img {
+
+    &:hover img {
       opacity: 0.8;
     }
   `}

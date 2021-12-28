@@ -22,11 +22,11 @@ exports[`<PostGrid /> should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c2:hover > a {
+.c2:hover a {
   color: #dc143c;
 }
 
-.c2:hover > img {
+.c2:hover img {
   opacity: 0.8;
 }
 
@@ -77,7 +77,9 @@ exports[`<PostGrid /> should match snapshot 1`] = `
         <h2
           class="c4 c5"
         >
-          <a>
+          <a
+            href="/post/vis-nobis-veritus-maluisset-id-nonumy-adversarium"
+          >
             Vis nobis veritus maluisset id, nonumy adversarium
           </a>
         </h2>
@@ -102,7 +104,9 @@ exports[`<PostGrid /> should match snapshot 1`] = `
         <h2
           class="c4 c5"
         >
-          <a>
+          <a
+            href="/post/sea-array-destructuring-dicat-fabulas-consetetur"
+          >
             Sea Array Destructuring dicat fabulas consetetur 
           </a>
         </h2>
@@ -127,7 +131,9 @@ exports[`<PostGrid /> should match snapshot 1`] = `
         <h2
           class="c4 c5"
         >
-          <a>
+          <a
+            href="/post/quod-oblique-mei-ne-cetero-delicatissimi-sea"
+          >
             Quod oblique mei ne, cetero delicatissimi sea
           </a>
         </h2>

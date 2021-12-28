@@ -13,7 +13,7 @@ export default {
     children: { type: 'string' },
   },
   parameters: {
-    background: {
+    backgrounds: {
       default: 'light',
     },
   },

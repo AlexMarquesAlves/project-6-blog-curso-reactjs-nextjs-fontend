@@ -14,7 +14,7 @@ const wrapperChanger = (
 
   @media ${theme.media.lteMedium} {
     left: ${menuVisible ? '0' : '-32rem'};
-  } ;
+  }
 `;
 
 export const Wrapper = styled.div<MenuBehaviorProps>`
@@ -63,22 +63,21 @@ const buttonChanger = (
   color: ${menuVisible ? theme.colors.secondary : theme.colors.white};
 
   @media ${theme.media.lteMedium} {
-    left: ${menuVisible ? '26rem' : '1rem'};
-  } ;
+    left: ${menuVisible ? '26rem' : '-0.5rem'};
+  }
 `;
 
 export const OpenClose = styled.a<MenuBehaviorProps>`
-  ${({ theme, menuVisible }) =>
-    css`
-      position: fixed;
-      top: ${theme.spacings.medium};
-      color: ${theme.colors.white};
-      background: ${theme.colors.primary};
-      z-index: 2;
-      width: 3rem;
-      height: 3rem;
-      left: 26rem;
-      transition: all 300ms ease-in-out;
-      ${buttonChanger(menuVisible, theme)}
-    `}
+  ${({ theme, menuVisible }) => css`
+    position: fixed;
+    top: ${theme.spacings.medium};
+    color: ${theme.colors.white};
+    background: ${theme.colors.primary};
+    z-index: 2;
+    width: 3rem;
+    height: 3rem;
+    left: 26rem;
+    transition: all 300ms ease-in-out;
+    ${buttonChanger(menuVisible, theme)}
+  `}
 `;

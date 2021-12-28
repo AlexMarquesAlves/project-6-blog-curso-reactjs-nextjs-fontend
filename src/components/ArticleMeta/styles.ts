@@ -9,6 +9,7 @@ export const Wrapper = styled.div`
     .categories span::after {
       content: ', ';
     }
+
     .categories span:last-child::after {
       content: '';
     }

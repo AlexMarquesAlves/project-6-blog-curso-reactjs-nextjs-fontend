@@ -12,7 +12,7 @@ describe('<BaseTemplate />', () => {
 
     expect(
       screen.getByRole('img', {
-        name: 'Alex M. Alves - Uma descrição para o seu blog.',
+        name: 'Otávio Miranda - Uma descrição para o seu blog.',
       }),
     ).toBeInTheDocument();
     expect(screen.getByLabelText('Open or close menu')).toBeInTheDocument();
@@ -22,7 +22,6 @@ describe('<BaseTemplate />', () => {
 
   it('should render base elements', () => {
     const { container } = renderTheme(<BaseTemplate {...props} />);
-
     expect(container).toMatchSnapshot();
   });
 });

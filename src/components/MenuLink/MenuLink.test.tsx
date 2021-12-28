@@ -50,7 +50,7 @@ describe('<MenuLink />', () => {
         transition: all 300ms ease-in-out;
       }
 
-      .c0:hover: {
+      .c0:hover {
         border-right: 0.5rem solid #dc143c;
         color: #dc143c;
       }

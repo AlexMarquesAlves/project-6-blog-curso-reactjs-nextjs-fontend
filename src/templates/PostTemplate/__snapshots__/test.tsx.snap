@@ -7,7 +7,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 
 .c19 {
   font-size: 1.6rem;
-  color: #aaaaaa;
+  color: #AAAAAA;
   font-style: italic;
 }
 
@@ -66,6 +66,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 
 .c17 {
   margin: 2.4rem 0;
+  font-size: 2.4rem;
 }
 
 .c18 {
@@ -176,7 +177,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 
 .c21 blockquote {
   border-left: 0.5rem solid #dc143c;
-  color: #aaaaaa;
+  color: #AAAAAA;
   -webkit-filter: brightness(80%);
   filter: brightness(80%);
   padding-left: 2.4rem;
@@ -203,7 +204,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 }
 
 .c23 span {
-  margin: 0 0 0 1rem;
+  margin: 0 0 0 0.5rem;
 }
 
 .c23 span::before {
@@ -328,6 +329,23 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   max-width: 48rem;
 }
 
+.c8 {
+  display: block;
+  color: #FFFFFF;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin-bottom: 1.6rem;
+  font-size: 1.8rem;
+  border-right: 0.5rem solid #000000;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c8:hover {
+  border-right: 0.5rem solid #dc143c;
+  color: #dc143c;
+}
+
 .c2 {
   background: #000000;
   padding: 3.2rem;
@@ -386,23 +404,6 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   color: #FFFFFF;
 }
 
-.c8 {
-  display: block;
-  color: #FFFFFF;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  margin-bottom: 1.6rem;
-  font-size: 1.8rem;
-  border-right: 0.5rem solid #000000;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-}
-
-.c8:hover: {
-  border-right: 0.5rem solid #dc143c;
-  color: #dc143c;
-}
-
 .c9 {
   margin-top: 6.4rem;
 }
@@ -440,18 +441,6 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 }
 
 @media (max-width:768px) {
-  .c14 {
-    padding: 0 calc(3.2rem / 2);
-  }
-}
-
-@media (max-width:768px) {
-  .c20 {
-    padding: 0 calc(3.2rem / 2);
-  }
-}
-
-@media (max-width:768px) {
   .c2 {
     left: -32rem;
   }
@@ -459,7 +448,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 
 @media (max-width:768px) {
   .c0 {
-    left: 1rem;
+    left: -0.5rem;
   }
 }
 
@@ -510,7 +499,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
               target="_self"
             >
               <img
-                alt="Alex M. Alves"
+                alt="Otávio Miranda"
                 src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614698965/Ubuntu_gel_by_Midge_Mantissa_Sinnaeve_7caea7ddb4.jpg"
               />
             </a>
@@ -547,7 +536,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
             target="_self"
           >
             <img
-              alt="Alex M. Alves - Uma descrição para o seu blog."
+              alt="Otávio Miranda - Uma descrição para o seu blog."
               src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614698965/Ubuntu_gel_by_Midge_Mantissa_Sinnaeve_7caea7ddb4.jpg"
             />
           </a>
@@ -558,7 +547,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
           <h2
             class="c5 c12"
           >
-            Alex M. Alves
+            Otávio Miranda
           </h2>
           <p>
             Uma descrição para o seu blog.
@@ -1049,7 +1038,6 @@ const useMyHook = (cb, delay = 1000) =&gt; {
           class="c23"
         >
           tags:
-            
           <span>
             <a
               href="/tag/use-effect"
@@ -1066,7 +1054,6 @@ const useMyHook = (cb, delay = 1000) =&gt; {
           </span>
         </p>
       </div>
-       
     </div>
     <div
       class="c24"

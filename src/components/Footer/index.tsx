@@ -1,5 +1,5 @@
-import * as Styled from './styles';
 import { HtmlContent } from '../HtmlContent';
+import * as Styled from './styles';
 
 export type FooterProps = {
   footerHtml: string;

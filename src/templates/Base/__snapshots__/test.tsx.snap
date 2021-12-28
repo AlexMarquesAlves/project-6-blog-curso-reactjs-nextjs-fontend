@@ -1,17 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<BaseTemplate /> should render base elements 1`] = `
-.c15 {
-  text-align: center;
-  border-top: 0.1rem solid #DDDDDD;
-}
-
-.c15 a {
-  color: inherit;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
 .c16 {
   font-size: calc(1.6rem + 0.2rem);
   line-height: 1.5;
@@ -114,12 +103,23 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
 
 .c16 blockquote {
   border-left: 0.5rem solid #dc143c;
-  color: #aaaaaa;
+  color: #AAAAAA;
   -webkit-filter: brightness(80%);
   filter: brightness(80%);
   padding-left: 2.4rem;
   font-style: italic;
   margin: 2.4rem;
+}
+
+.c15 {
+  text-align: center;
+  border-top: 0.1rem solid #DDDDDD;
+}
+
+.c15 a {
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .c17 {
@@ -222,6 +222,23 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   max-width: 48rem;
 }
 
+.c8 {
+  display: block;
+  color: #FFFFFF;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin-bottom: 1.6rem;
+  font-size: 1.8rem;
+  border-right: 0.5rem solid #000000;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c8:hover {
+  border-right: 0.5rem solid #dc143c;
+  color: #dc143c;
+}
+
 .c2 {
   background: #000000;
   padding: 3.2rem;
@@ -280,23 +297,6 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   color: #FFFFFF;
 }
 
-.c8 {
-  display: block;
-  color: #FFFFFF;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  margin-bottom: 1.6rem;
-  font-size: 1.8rem;
-  border-right: 0.5rem solid #000000;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-}
-
-.c8:hover: {
-  border-right: 0.5rem solid #dc143c;
-  color: #dc143c;
-}
-
 .c9 {
   margin-top: 6.4rem;
 }
@@ -335,7 +335,7 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
 
 @media (max-width:768px) {
   .c0 {
-    left: 1rem;
+    left: -0.5rem;
   }
 }
 
@@ -386,7 +386,7 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
               target="_self"
             >
               <img
-                alt="Alex M. Alves"
+                alt="Otávio Miranda"
                 src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614698965/Ubuntu_gel_by_Midge_Mantissa_Sinnaeve_7caea7ddb4.jpg"
               />
             </a>
@@ -423,7 +423,7 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
             target="_self"
           >
             <img
-              alt="Alex M. Alves - Uma descrição para o seu blog."
+              alt="Otávio Miranda - Uma descrição para o seu blog."
               src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614698965/Ubuntu_gel_by_Midge_Mantissa_Sinnaeve_7caea7ddb4.jpg"
             />
           </a>
@@ -434,7 +434,7 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
           <h2
             class="c5 c12"
           >
-            Alex M. Alves
+            Otávio Miranda
           </h2>
           <p>
             Uma descrição para o seu blog.
@@ -446,7 +446,6 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
       class="c13"
     >
       Olá mundo
-       
     </div>
     <div
       class="c14"

@@ -11,10 +11,9 @@ describe('<Header />', () => {
     expect(
       screen.getByRole('heading', { name: props.blogName }),
     ).toBeInTheDocument();
-    expect(screen.getByRole('img', { name: /Alex M. ALves/i })).toHaveAttribute(
-      'src',
-      props.logo,
-    );
+    expect(
+      screen.getByRole('img', { name: /Otávio Miranda/i }),
+    ).toHaveAttribute('src', props.logo);
     expect(screen.getByText(props.blogDescription)).toBeInTheDocument();
   });
 
@@ -22,12 +21,11 @@ describe('<Header />', () => {
     renderTheme(<Header {...props} showText={false} />);
 
     expect(
-      screen.queryByRole('heading', { name: 'Alex M. ALves' }),
+      screen.queryByRole('heading', { name: 'Otávio Miranda' }),
     ).not.toBeInTheDocument();
-    expect(screen.getByRole('img', { name: /Alex M. ALves/i })).toHaveAttribute(
-      'src',
-      props.logo,
-    );
+    expect(
+      screen.getByRole('img', { name: /Otávio Miranda/i }),
+    ).toHaveAttribute('src', props.logo);
     expect(screen.queryByRole(props.blogDescription)).not.toBeInTheDocument();
   });
 

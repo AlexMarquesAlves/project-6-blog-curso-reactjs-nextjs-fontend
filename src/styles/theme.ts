@@ -5,7 +5,7 @@ export const theme = {
     secondary: '#dc143c',
     white: '#FFFFFF',
     mediumGray: '#DDDDDD',
-    darkerGray: '#aaaaaa',
+    darkerGray: '#AAAAAA',
   },
   font: {
     family: {
@@ -24,7 +24,7 @@ export const theme = {
   },
   media: {
     lteMedium: '(max-width: 768px)',
-    lteSmall: '(max-width:360px)',
+    lteSmall: '(max-width: 360px)',
   },
   spacings: {
     xsmall: '8rem',

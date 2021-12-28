@@ -10,7 +10,7 @@ export const Container = styled.a`
     border-right: 0.5rem solid ${theme.colors.primary};
     transition: all 300ms ease-in-out;
 
-    &:hover: {
+    &:hover {
       border-right: 0.5rem solid ${theme.colors.secondary};
       color: ${theme.colors.secondary};
     }

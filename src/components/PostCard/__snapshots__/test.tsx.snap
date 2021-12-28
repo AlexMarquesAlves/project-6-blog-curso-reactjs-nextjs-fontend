@@ -22,11 +22,11 @@ exports[`<PostCard /> should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c0:hover > a {
+.c0:hover a {
   color: #dc143c;
 }
 
-.c0:hover > img {
+.c0:hover img {
   opacity: 0.8;
 }
 
@@ -52,7 +52,9 @@ exports[`<PostCard /> should match snapshot 1`] = `
     <h2
       class="c2 c3"
     >
-      <a>
+      <a
+        href="/post/vis-nobis-veritus-maluisset-id-nonumy-adversarium"
+      >
         Vis nobis veritus maluisset id, nonumy adversarium
       </a>
     </h2>

@@ -113,7 +113,7 @@ describe('<HtmlContent />', () => {
 
       .c0 blockquote {
         border-left: 0.5rem solid #dc143c;
-        color: #aaaaaa;
+        color: #AAAAAA;
         -webkit-filter: brightness(80%);
         filter: brightness(80%);
         padding-left: 2.4rem;

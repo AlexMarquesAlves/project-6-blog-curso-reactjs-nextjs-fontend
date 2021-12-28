@@ -5,14 +5,12 @@ export type PostContainerProps = {
 };
 
 const postContainerStyles = {
-  max: (theme: DefaultTheme) =>
-    css`
-      max-width: ${theme.sizes.max};
-    `,
-  content: (theme: DefaultTheme) =>
-    css`
-      max-width: ${theme.sizes.content};
-    `,
+  max: (theme: DefaultTheme) => css`
+    max-width: ${theme.sizes.max};
+  `,
+  content: (theme: DefaultTheme) => css`
+    max-width: ${theme.sizes.content};
+  `,
 };
 
 export const PostContainer = styled.div<PostContainerProps>`
@@ -21,9 +19,5 @@ export const PostContainer = styled.div<PostContainerProps>`
     margin: 0 auto;
     padding: 0 ${theme.spacings.large};
     ${postContainerStyles[size](theme)}
-
-    @media ${theme.media.lteMedium} {
-      padding: 0 calc(${theme.spacings.large} / 2);
-    }
   `}
 `;

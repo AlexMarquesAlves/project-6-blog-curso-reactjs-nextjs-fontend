@@ -7,17 +7,6 @@ describe('<Footer />', () => {
     const { container } = renderTheme(<Footer footerHtml={'<h1>Olá</h1>'} />);
     expect(screen.getByRole('heading', { name: 'Olá' })).toBeInTheDocument();
     expect(container).toMatchInlineSnapshot(`
-      .c0 {
-        text-align: center;
-        border-top: 0.1rem solid #DDDDDD;
-      }
-
-      .c0 a {
-        color: inherit;
-        -webkit-text-decoration: none;
-        text-decoration: none;
-      }
-
       .c1 {
         font-size: calc(1.6rem + 0.2rem);
         line-height: 1.5;
@@ -120,12 +109,23 @@ describe('<Footer />', () => {
 
       .c1 blockquote {
         border-left: 0.5rem solid #dc143c;
-        color: #aaaaaa;
+        color: #AAAAAA;
         -webkit-filter: brightness(80%);
         filter: brightness(80%);
         padding-left: 2.4rem;
         font-style: italic;
         margin: 2.4rem;
+      }
+
+      .c0 {
+        text-align: center;
+        border-top: 0.1rem solid #DDDDDD;
+      }
+
+      .c0 a {
+        color: inherit;
+        -webkit-text-decoration: none;
+        text-decoration: none;
       }
 
       @media (max-width:768px) {

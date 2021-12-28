@@ -17,7 +17,7 @@ describe('<Post />', () => {
     expect(screen.getByRole('img', { name: props.title })).toBeInTheDocument();
     expect(
       screen.getAllByText(/^Fugit aliquip erroribus eu eam/i)[0],
-    ).toHaveStyle({ 'margin-bottom': '2.4rem' });
+    ).toHaveStyle({ 'font-size': '2.4rem' });
     expect(screen.getByText(formatDate(props.createdAt))).toBeInTheDocument();
     expect(
       screen.getByText(/^Blockquote: Et sed legere rationibus/i),

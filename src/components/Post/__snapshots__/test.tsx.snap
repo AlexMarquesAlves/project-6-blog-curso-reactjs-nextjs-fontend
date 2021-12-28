@@ -5,7 +5,7 @@ exports[
 ] = `
 .c6 {
   font-size: 1.6rem;
-  color: #aaaaaa;
+  color: #AAAAAA;
   font-style: italic;
 }
 
@@ -50,6 +50,7 @@ exports[
 
 .c4 {
   margin: 2.4rem 0;
+  font-size: 2.4rem;
 }
 
 .c5 {
@@ -160,7 +161,7 @@ exports[
 
 .c8 blockquote {
   border-left: 0.5rem solid #dc143c;
-  color: #aaaaaa;
+  color: #AAAAAA;
   -webkit-filter: brightness(80%);
   filter: brightness(80%);
   padding-left: 2.4rem;
@@ -197,18 +198,6 @@ exports[
     max-width: 100%;
     float: none;
     margin: 0;
-  }
-}
-
-@media (max-width:768px) {
-  .c0 {
-    padding: 0 calc(3.2rem / 2);
-  }
-}
-
-@media (max-width:768px) {
-  .c7 {
-    padding: 0 calc(3.2rem / 2);
   }
 }
 
