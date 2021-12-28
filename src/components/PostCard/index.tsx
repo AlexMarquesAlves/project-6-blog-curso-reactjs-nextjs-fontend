@@ -1,10 +1,13 @@
-import { PostProps } from '../Post';
 import * as Styled from './styles';
 import Link from 'next/link';
 import { Heading } from '../Heading';
+import { StrapiImage } from '../../shared-typed/strapi-image';
 
-export type PostCardProps = PostProps & {
+export type PostCardProps = {
   slug: string;
+  title: string;
+  cover: StrapiImage;
+  excerpt: string;
 };
 
 export const PostCard = ({ title, cover, excerpt, slug }: PostCardProps) => {
@@ -12,7 +15,7 @@ export const PostCard = ({ title, cover, excerpt, slug }: PostCardProps) => {
     <Styled.Wrapper>
       <Link href={`/post/${slug}`}>
         <a>
-          <Styled.Cover src={cover.url}></Styled.Cover>
+          <Styled.Cover src={cover.url} alt={title}></Styled.Cover>
         </a>
       </Link>
       <Link href={`/post/${slug}`}>
