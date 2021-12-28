@@ -147,12 +147,13 @@ exports[`<Menu /> should match snapshot 1`] = `
     </svg>
   </a>
   <div
+    aria-hidden="true"
     class="c2"
   >
     <nav
       class="c3"
     >
-      <nav
+      <div
         class="c4"
       >
         <h1
@@ -169,7 +170,7 @@ exports[`<Menu /> should match snapshot 1`] = `
             />
           </a>
         </h1>
-      </nav>
+      </div>
       <a
         class="c8"
         href="/home/1"
