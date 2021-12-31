@@ -9,7 +9,7 @@
     "start": "next start",
     "storybook": "start-storybook -p 6006 -s ./public",
     "build-storybook": "build-storybook",
-    "test": "jest \"--watch\"",
+    "test": "jest",
     "deploy-static": "npm run build && npm run export",
     "lint": "eslint src --max-warnings=0",
     "lint-staged": "lint-staged",
@@ -17,6 +17,8 @@
   },
   "dependencies": {
     "@styled-icons/material-outlined": "^10.28.0",
+    "graphql": "^16.2.0",
+    "graphql-request": "^3.7.0",
     "next": "10.0.7",
     "prop-types": "^15.7.2",
     "react": "17.0.1",
