@@ -1,18 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<BaseTemplate /> should render base elements 1`] = `
-.c16 {
+.c18 {
   font-size: calc(1.6rem + 0.2rem);
   line-height: 1.5;
 }
 
-.c16 p {
+.c18 p {
   margin: 2.4rem 0;
 }
 
-.c16 a,
-.c16 a:visited,
-.c16 a:link {
+.c18 a,
+.c18 a:visited,
+.c18 a:link {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -20,12 +20,12 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c16 a:hover {
+.c18 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c16 code {
+.c18 code {
   font-family: monospace;
   color: #dc143c;
   font-size: 1.6rem;
@@ -34,7 +34,7 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   margin: 0.2rem;
 }
 
-.c16 pre {
+.c18 pre {
   background: #000000;
   padding: 2.4rem;
   font-family: monospace;
@@ -45,63 +45,63 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   font-size: 1.6rem;
 }
 
-.c16 pre code {
+.c18 pre code {
   color: inherit;
   background: inherit;
 }
 
-.c16 img {
+.c18 img {
   max-width: 100%;
 }
 
-.c16 .image {
+.c18 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c16 .image figcaption {
+.c18 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem;
   text-align: center;
   line-height: 1.3;
 }
 
-.c16 .image-style-side {
+.c18 .image-style-side {
   max-width: 50%;
   float: right;
   margin: 2.4rem 0;
 }
 
-.c16 hr {
+.c18 hr {
   border: none;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c16 ul,
-.c16 ol {
+.c18 ul,
+.c18 ol {
   margin: 2.4rem 4.0rem;
 }
 
-.c16 .table {
+.c18 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c16 table {
+.c18 table {
   width: 100%;
   border-collapse: collapse;
   margin: 2.4rem 0;
 }
 
-.c16 table td,
-.c16 table th {
+.c18 table td,
+.c18 table th {
   padding: 1.6rem;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c16 blockquote {
+.c18 blockquote {
   border-left: 0.5rem solid #dc143c;
   color: #AAAAAA;
   -webkit-filter: brightness(80%);
@@ -111,18 +111,18 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   margin: 2.4rem;
 }
 
-.c15 {
+.c17 {
   text-align: center;
   border-top: 0.1rem solid #DDDDDD;
 }
 
-.c15 a {
+.c17 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c17 {
+.c19 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -299,16 +299,41 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
 
 .c9 {
   margin-top: 6.4rem;
+  padding: 0 3.2rem;
 }
 
 .c13 {
+  margin: 0 auto;
+  margin-bottom: 4.0rem;
+  padding: 0 3.2rem;
+  max-width: 120rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c14 {
+  padding: 0.5rem 1.6rem;
+}
+
+.c15 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 6.4rem;
 }
 
-.c14 {
+.c16 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
@@ -316,14 +341,36 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
 }
 
 @media (max-width:768px) {
-  .c16 {
+  .c18 {
     font-size: 2rem;
   }
 
-  .c16 .image-style-side {
+  .c18 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
+  }
+}
+
+@media (max-width:360px) {
+  .c10 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+  }
+
+  .c10 > .c5 {
+    margin: 0 0 2.4rem 0;
+  }
+}
+
+@media (max-width:360px) {
+  .c11 {
+    margin-left: 0;
   }
 }
 
@@ -445,16 +492,31 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
     <div
       class="c13"
     >
+      <form
+        action="/search/"
+        method="get"
+      >
+        <input
+          class="c14"
+          name="q"
+          placeholder="Buscar posts"
+          type="search"
+        />
+      </form>
+    </div>
+    <div
+      class="c15"
+    >
       Olá mundo
     </div>
     <div
-      class="c14"
+      class="c16"
     >
       <footer
-        class="c15"
+        class="c17"
       >
         <div
-          class="c16"
+          class="c18"
         >
           <p>
             O texto da footer
@@ -464,7 +526,7 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
     </div>
     <a
       aria-label="Go to top"
-      class="c17"
+      class="c19"
       href="#"
       title="Go to top"
     >

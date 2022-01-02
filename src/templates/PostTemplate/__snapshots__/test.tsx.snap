@@ -1,25 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<PostTemplate /> should match snapshot 1`] = `
-.c22 {
+.c24 {
   padding: 0 3.2rem;
 }
 
-.c19 {
+.c21 {
   font-size: 1.6rem;
   color: #AAAAAA;
   font-style: italic;
 }
 
-.c19 .categories span::after {
+.c21 .categories span::after {
   content: ', ';
 }
 
-.c19 .categories span:last-child::after {
+.c21 .categories span:last-child::after {
   content: '';
 }
 
-.c19 a {
+.c21 a {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -27,7 +27,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c19 a:hover {
+.c21 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
@@ -46,180 +46,47 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   text-transform: none;
 }
 
-.c16 {
+.c18 {
   color: #000000;
   line-height: 1.2;
   font-size: 6.4rem;
   text-transform: none;
 }
 
-.c15 {
+.c17 {
   padding-bottom: 4.0rem;
   margin-bottom: 4.0rem;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c15 .c5 {
+.c17 .c5 {
   margin: 0;
   margin-bottom: 2.4rem;
 }
 
-.c17 {
+.c19 {
   margin: 2.4rem 0;
   font-size: 2.4rem;
 }
 
-.c18 {
+.c20 {
   max-width: 100%;
   display: block;
   margin-bottom: 2.4rem;
 }
 
-.c21 {
+.c23 {
   font-size: calc(1.6rem + 0.2rem);
   line-height: 1.5;
 }
 
-.c21 p {
+.c23 p {
   margin: 2.4rem 0;
 }
 
-.c21 a,
-.c21 a:visited,
-.c21 a:link {
-  color: #dc143c;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-}
-
-.c21 a:hover {
-  -webkit-filter: brightness(50%);
-  filter: brightness(50%);
-}
-
-.c21 code {
-  font-family: monospace;
-  color: #dc143c;
-  font-size: 1.6rem;
-  background: #DDDDDD;
-  padding: 0.2rem;
-  margin: 0.2rem;
-}
-
-.c21 pre {
-  background: #000000;
-  padding: 2.4rem;
-  font-family: monospace;
-  color: #FFFFFF;
-  margin: 2.4rem 0;
-  width: 100%;
-  overflow-x: auto;
-  font-size: 1.6rem;
-}
-
-.c21 pre code {
-  color: inherit;
-  background: inherit;
-}
-
-.c21 img {
-  max-width: 100%;
-}
-
-.c21 .image {
-  background: #DDDDDD;
-  line-height: 0;
-  margin: 2.4rem 0;
-}
-
-.c21 .image figcaption {
-  font-size: 1.6rem;
-  padding: 1.6rem;
-  text-align: center;
-  line-height: 1.3;
-}
-
-.c21 .image-style-side {
-  max-width: 50%;
-  float: right;
-  margin: 2.4rem 0;
-}
-
-.c21 hr {
-  border: none;
-  border-bottom: 0.1rem solid #DDDDDD;
-}
-
-.c21 ul,
-.c21 ol {
-  margin: 2.4rem 4.0rem;
-}
-
-.c21 .table {
-  width: 100%;
-  overflow: hidden;
-  overflow-x: auto;
-}
-
-.c21 table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 2.4rem 0;
-}
-
-.c21 table td,
-.c21 table th {
-  padding: 1.6rem;
-  border: 0.1rem solid #DDDDDD;
-}
-
-.c21 blockquote {
-  border-left: 0.5rem solid #dc143c;
-  color: #AAAAAA;
-  -webkit-filter: brightness(80%);
-  filter: brightness(80%);
-  padding-left: 2.4rem;
-  font-style: italic;
-  margin: 2.4rem;
-}
-
-.c14 {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 3.2rem;
-  max-width: 96rem;
-}
-
-.c20 {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 3.2rem;
-  max-width: 80rem;
-}
-
-.c23 {
-  margin: 2.4rem 0;
-}
-
-.c23 span {
-  margin: 0 0 0 0.5rem;
-}
-
-.c23 span::before {
-  content: ' ';
-}
-
-.c23 span::after {
-  content: ', ';
-}
-
-.c23 span:last-child::after {
-  content: '';
-}
-
-.c23 a {
+.c23 a,
+.c23 a:visited,
+.c23 a:link {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -232,18 +99,151 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   filter: brightness(50%);
 }
 
+.c23 code {
+  font-family: monospace;
+  color: #dc143c;
+  font-size: 1.6rem;
+  background: #DDDDDD;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+.c23 pre {
+  background: #000000;
+  padding: 2.4rem;
+  font-family: monospace;
+  color: #FFFFFF;
+  margin: 2.4rem 0;
+  width: 100%;
+  overflow-x: auto;
+  font-size: 1.6rem;
+}
+
+.c23 pre code {
+  color: inherit;
+  background: inherit;
+}
+
+.c23 img {
+  max-width: 100%;
+}
+
+.c23 .image {
+  background: #DDDDDD;
+  line-height: 0;
+  margin: 2.4rem 0;
+}
+
+.c23 .image figcaption {
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.c23 .image-style-side {
+  max-width: 50%;
+  float: right;
+  margin: 2.4rem 0;
+}
+
+.c23 hr {
+  border: none;
+  border-bottom: 0.1rem solid #DDDDDD;
+}
+
+.c23 ul,
+.c23 ol {
+  margin: 2.4rem 4.0rem;
+}
+
+.c23 .table {
+  width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.c23 table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2.4rem 0;
+}
+
+.c23 table td,
+.c23 table th {
+  padding: 1.6rem;
+  border: 0.1rem solid #DDDDDD;
+}
+
+.c23 blockquote {
+  border-left: 0.5rem solid #dc143c;
+  color: #AAAAAA;
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+  padding-left: 2.4rem;
+  font-style: italic;
+  margin: 2.4rem;
+}
+
+.c16 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 96rem;
+}
+
+.c22 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  max-width: 80rem;
+}
+
 .c25 {
+  margin: 2.4rem 0;
+}
+
+.c25 span {
+  margin: 0 0 0 0.5rem;
+}
+
+.c25 span::before {
+  content: ' ';
+}
+
+.c25 span::after {
+  content: ', ';
+}
+
+.c25 span:last-child::after {
+  content: '';
+}
+
+.c25 a {
+  color: #dc143c;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c25 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c27 {
   text-align: center;
   border-top: 0.1rem solid #DDDDDD;
 }
 
-.c25 a {
+.c27 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c26 {
+.c28 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -410,13 +410,37 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 }
 
 .c13 {
+  margin: 0 auto;
+  margin-bottom: 4.0rem;
+  padding: 0 3.2rem;
+  max-width: 120rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c14 {
+  padding: 0.5rem 1.6rem;
+}
+
+.c15 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 6.4rem;
 }
 
-.c24 {
+.c26 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
@@ -424,17 +448,17 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
 }
 
 @media (max-width:768px) {
-  .c16 {
+  .c18 {
     font-size: 4.0rem;
   }
 }
 
 @media (max-width:768px) {
-  .c21 {
+  .c23 {
     font-size: 2rem;
   }
 
-  .c21 .image-style-side {
+  .c23 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
@@ -581,32 +605,47 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
     <div
       class="c13"
     >
+      <form
+        action="/search/"
+        method="get"
+      >
+        <input
+          class="c14"
+          name="q"
+          placeholder="Buscar posts"
+          type="search"
+        />
+      </form>
+    </div>
+    <div
+      class="c15"
+    >
       <article
         class=""
       >
         <div
-          class="c14"
+          class="c16"
         >
           <header
-            class="c15"
+            class="c17"
           >
             <h1
-              class="c5 c16"
+              class="c5 c18"
             >
               Vis nobis veritus maluisset id, nonumy adversarium
             </h1>
             <p
-              class="c17"
+              class="c19"
             >
               Fugit aliquip erroribus eu eam, an mel vidit doctus. Vis nobis veritus maluisset id, nonumy adversarium neglegentur est ut. Tation persius pri eu, modo minim fastidii mei no. Ad tota pertinax definiebas eam.
             </p>
             <img
               alt="Vis nobis veritus maluisset id, nonumy adversarium"
-              class="c18"
+              class="c20"
               src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614698965/Ubuntu_gel_by_Midge_Mantissa_Sinnaeve_7caea7ddb4.jpg"
             />
             <div
-              class="c19"
+              class="c21"
             >
               <p>
                 <span>
@@ -655,10 +694,10 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
           </header>
         </div>
         <div
-          class="c20"
+          class="c22"
         >
           <div
-            class="c21"
+            class="c23"
           >
             <p>
               Nostro 
@@ -1055,10 +1094,10 @@ const useMyHook = (cb, delay = 1000) =&gt; {
         </div>
       </article>
       <div
-        class="c22"
+        class="c24"
       >
         <p
-          class="c23"
+          class="c25"
         >
           tags:
           <span>
@@ -1079,13 +1118,13 @@ const useMyHook = (cb, delay = 1000) =&gt; {
       </div>
     </div>
     <div
-      class="c24"
+      class="c26"
     >
       <footer
-        class="c25"
+        class="c27"
       >
         <div
-          class="c21"
+          class="c23"
         >
           <p>
             O texto da footer
@@ -1095,7 +1134,7 @@ const useMyHook = (cb, delay = 1000) =&gt; {
     </div>
     <a
       aria-label="Go to top"
-      class="c26"
+      class="c28"
       href="#"
       title="Go to top"
     >
