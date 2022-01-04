@@ -1493,7 +1493,6 @@ const useMyHook = (cb, delay = 1000) =&gt; {
                 The end.
               </p>
             </div>
-            ;
           </div>
         </div>
       </article>
@@ -1544,7 +1543,6 @@ const useMyHook = (cb, delay = 1000) =&gt; {
               O texto da footer
             </p>
           </div>
-          ;
         </div>
       </footer>
     </div>

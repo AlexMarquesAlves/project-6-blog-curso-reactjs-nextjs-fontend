@@ -912,7 +912,6 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
               O texto da footer
             </p>
           </div>
-          ;
         </div>
       </footer>
     </div>

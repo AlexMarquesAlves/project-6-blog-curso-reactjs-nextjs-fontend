@@ -1081,7 +1081,6 @@ exports[`<PostsTemplate /> should match snapshot 1`] = `
               O texto da footer
             </p>
           </div>
-          ;
         </div>
       </footer>
     </div>
@@ -1134,7 +1133,7 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
 .c23 {
   padding: 3.2rem;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 3.2rem;
 }
 
 .c24 {
@@ -2037,7 +2036,7 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
         <p
           class="c23"
         >
-          Nenhum post encontrado aqui =(
+          Nenhum post encontrado aqui 😢
         </p>
         <div
           class="c24"
@@ -2060,7 +2059,6 @@ exports[`<PostsTemplate /> should match snapshot without posts 1`] = `
               O texto da footer
             </p>
           </div>
-          ;
         </div>
       </footer>
     </div>
