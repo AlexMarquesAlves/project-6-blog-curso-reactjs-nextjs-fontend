@@ -1,10 +1,16 @@
 import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.div`
-  svg.search-ok-icon {
+  svg.search-ok-icon,
+  svg.search-cancel-icon {
     width: 2.4rem;
     height: 2.4rem;
     margin-left: 1rem;
+  }
+  svg.search-cancel-icon {
+    ${({ theme }) => css`
+      color: ${theme.colors.secondary};
+    `};
   }
 `;
 
@@ -31,6 +37,20 @@ export const SearchContainer = styled.div`
 export const SearchInput = styled.input`
   ${({ theme }) => css`
     padding: 0.5rem ${theme.spacings.small};
+    border-radius: ${theme.spacings.xsmall};
+    width: 100%;
+    background: ${theme.colors.mediumGray};
+
+    border: none;
+    font-size: ${theme.font.sizes.small};
+
+    &::placeholder {
+      text-align: center;
+    }
+
+    &:disabled {
+      outline: 0.1rem solid ${theme.colors.secondary};
+    }
   `}
 `;
 
