@@ -2,6 +2,10 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
   ${({ theme }) => css`
+    iframe[src*='ads'] {
+      display: none;
+    }
+
     font-size: calc(${theme.font.sizes.small} + 0.2rem);
     line-height: 1.5;
 
@@ -21,7 +25,7 @@ export const Container = styled.div`
       filter: brightness(50%);
     }
 
-    code {
+    /* code {
       font-family: monospace;
       color: ${theme.colors.secondary};
       font-size: ${theme.font.sizes.small};
@@ -44,7 +48,7 @@ export const Container = styled.div`
     pre code {
       color: inherit;
       background: inherit;
-    }
+    } */
 
     img {
       max-width: 100%;

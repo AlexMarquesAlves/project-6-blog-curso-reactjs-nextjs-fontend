@@ -1,25 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<PostTemplate /> should match snapshot 1`] = `
-.c24 {
+.c31 {
   padding: 0 3.2rem;
 }
 
-.c21 {
+.c27 {
   font-size: 1.6rem;
   color: #AAAAAA;
   font-style: italic;
 }
 
-.c21 .categories span::after {
+.c27 .categories span::after {
   content: ', ';
 }
 
-.c21 .categories span:last-child::after {
+.c27 .categories span:last-child::after {
   content: '';
 }
 
-.c21 a {
+.c27 a {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -27,66 +27,70 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c21 a:hover {
+.c27 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
-}
-
-.c6 {
-  color: #000000;
-  line-height: 1.2;
-  font-size: 2.4rem;
-  text-transform: uppercase;
 }
 
 .c12 {
   color: #000000;
   line-height: 1.2;
   font-size: 2.4rem;
-  text-transform: none;
+  text-transform: uppercase;
 }
 
 .c18 {
+  color: #000000;
+  line-height: 1.2;
+  font-size: 2.4rem;
+  text-transform: none;
+}
+
+.c24 {
   color: #000000;
   line-height: 1.2;
   font-size: 6.4rem;
   text-transform: none;
 }
 
-.c17 {
+.c23 {
   padding-bottom: 4.0rem;
   margin-bottom: 4.0rem;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c17 .c5 {
+.c23 .c11 {
   margin: 0;
   margin-bottom: 2.4rem;
 }
 
-.c19 {
+.c25 {
   margin: 2.4rem 0;
   font-size: 2.4rem;
 }
 
-.c20 {
+.c26 {
   max-width: 100%;
   display: block;
   margin-bottom: 2.4rem;
 }
 
-.c23 {
+.c30 {
   font-size: calc(1.6rem + 0.2rem);
   line-height: 1.5;
 }
 
-.c23 p {
+.c30 iframe[src*='ads'] {
+  display: none;
+}
+
+.c30 p {
   margin: 2.4rem 0;
 }
 
-.c23 a,
-.c23 a:visited,
-.c23 a:link {
+.c30 a,
+.c30 a:visited,
+.c30 a:link {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -94,88 +98,63 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c23 a:hover {
+.c30 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c23 code {
-  font-family: monospace;
-  color: #dc143c;
-  font-size: 1.6rem;
-  background: #DDDDDD;
-  padding: 0.2rem;
-  margin: 0.2rem;
-}
-
-.c23 pre {
-  background: #000000;
-  padding: 2.4rem;
-  font-family: monospace;
-  color: #FFFFFF;
-  margin: 2.4rem 0;
-  width: 100%;
-  overflow-x: auto;
-  font-size: 1.6rem;
-}
-
-.c23 pre code {
-  color: inherit;
-  background: inherit;
-}
-
-.c23 img {
+.c30 img {
   max-width: 100%;
 }
 
-.c23 .image {
+.c30 .image {
   background: #DDDDDD;
   line-height: 0;
   margin: 2.4rem 0;
 }
 
-.c23 .image figcaption {
+.c30 .image figcaption {
   font-size: 1.6rem;
   padding: 1.6rem;
   text-align: center;
   line-height: 1.3;
 }
 
-.c23 .image-style-side {
+.c30 .image-style-side {
   max-width: 50%;
   float: right;
   margin: 2.4rem 0;
 }
 
-.c23 hr {
+.c30 hr {
   border: none;
   border-bottom: 0.1rem solid #DDDDDD;
 }
 
-.c23 ul,
-.c23 ol {
+.c30 ul,
+.c30 ol {
   margin: 2.4rem 4.0rem;
 }
 
-.c23 .table {
+.c30 .table {
   width: 100%;
   overflow: hidden;
   overflow-x: auto;
 }
 
-.c23 table {
+.c30 table {
   width: 100%;
   border-collapse: collapse;
   margin: 2.4rem 0;
 }
 
-.c23 table td,
-.c23 table th {
+.c30 table td,
+.c30 table th {
   padding: 1.6rem;
   border: 0.1rem solid #DDDDDD;
 }
 
-.c23 blockquote {
+.c30 blockquote {
   border-left: 0.5rem solid #dc143c;
   color: #AAAAAA;
   -webkit-filter: brightness(80%);
@@ -185,41 +164,309 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   margin: 2.4rem;
 }
 
-.c16 {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 3.2rem;
-  max-width: 96rem;
+.c29 pre[class*='language-'],
+.c29 code[class*='language-'] {
+  color: #d4d4d4;
+  font-size: 13px;
+  text-shadow: none;
+  font-family: Menlo,Monaco,Consolas,'Andale Mono','Ubuntu Mono','Courier New',monospace;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+.c29 pre[class*='language-']::selection,
+.c29 code[class*='language-']::selection,
+.c29 pre[class*='language-'] *::selection,
+.c29 code[class*='language-'] *::selection {
+  text-shadow: none;
+  background: #264f78;
+}
+
+.c29 pre[class*='language-'] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+  background: #1e1e1e;
+}
+
+.c29:not(pre) > code[class*='language-'] {
+  padding: 0.1em 0.3em;
+  border-radius: 0.3em;
+  color: #db4c69;
+  background: #1e1e1e;
+}
+
+.c29 .namespace {
+  opacity: 0.7;
+}
+
+.c29 .token.doctype .token.doctype-tag {
+  color: #569cd6;
+}
+
+.c29 .token.doctype .token.name {
+  color: #9cdcfe;
+}
+
+.c29 .token.comment,
+.c29 .token.prolog {
+  color: #6a9955;
+}
+
+.c29 .token.punctuation,
+.c29 .language-html .language-css .token.punctuation,
+.c29 .language-html .language-javascript .token.punctuation {
+  color: #d4d4d4;
+}
+
+.c29 .token.property,
+.c29 .token.tag,
+.c29 .token.boolean,
+.c29 .token.number,
+.c29 .token.constant,
+.c29 .token.symbol,
+.c29 .token.inserted,
+.c29 .token.unit {
+  color: #b5cea8;
+}
+
+.c29 .token.selector,
+.c29 .token.attr-name,
+.c29 .token.string,
+.c29 .token.char,
+.c29 .token.builtin,
+.c29 .token.deleted {
+  color: #ce9178;
+}
+
+.c29 .language-css .token.string.url {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c29 .token.operator,
+.c29 .token.entity {
+  color: #d4d4d4;
+}
+
+.c29 .token.operator.arrow {
+  color: #569cd6;
+}
+
+.c29 .token.atrule {
+  color: #ce9178;
+}
+
+.c29 .token.atrule .token.rule {
+  color: #c586c0;
+}
+
+.c29 .token.atrule .token.url {
+  color: #9cdcfe;
+}
+
+.c29 .token.atrule .token.url .token.function {
+  color: #dcdcaa;
+}
+
+.c29 .token.atrule .token.url .token.punctuation {
+  color: #d4d4d4;
+}
+
+.c29 .token.keyword {
+  color: #569cd6;
+}
+
+.c29 .token.keyword.module,
+.c29 .token.keyword.control-flow {
+  color: #c586c0;
+}
+
+.c29 .token.function,
+.c29 .token.function .token.maybe-class-name {
+  color: #dcdcaa;
+}
+
+.c29 .token.regex {
+  color: #d16969;
+}
+
+.c29 .token.important {
+  color: #569cd6;
+}
+
+.c29 .token.italic {
+  font-style: italic;
+}
+
+.c29 .token.constant {
+  color: #9cdcfe;
+}
+
+.c29 .token.class-name,
+.c29 .token.maybe-class-name {
+  color: #4ec9b0;
+}
+
+.c29 .token.console {
+  color: #9cdcfe;
+}
+
+.c29 .token.parameter {
+  color: #9cdcfe;
+}
+
+.c29 .token.interpolation {
+  color: #9cdcfe;
+}
+
+.c29 .token.punctuation.interpolation-punctuation {
+  color: #569cd6;
+}
+
+.c29 .token.boolean {
+  color: #569cd6;
+}
+
+.c29 .token.property,
+.c29 .token.variable,
+.c29 .token.imports .token.maybe-class-name,
+.c29 .token.exports .token.maybe-class-name {
+  color: #9cdcfe;
+}
+
+.c29 .token.selector {
+  color: #d7ba7d;
+}
+
+.c29 .token.escape {
+  color: #d7ba7d;
+}
+
+.c29 .token.tag {
+  color: #569cd6;
+}
+
+.c29 .token.tag .token.punctuation {
+  color: #808080;
+}
+
+.c29 .token.cdata {
+  color: #808080;
+}
+
+.c29 .token.attr-name {
+  color: #9cdcfe;
+}
+
+.c29 .token.attr-value,
+.c29 .token.attr-value .token.punctuation {
+  color: #ce9178;
+}
+
+.c29 .token.attr-value .token.punctuation.attr-equals {
+  color: #d4d4d4;
+}
+
+.c29 .token.entity {
+  color: #569cd6;
+}
+
+.c29 .token.namespace {
+  color: #4ec9b0;
+}
+
+.c29 pre[class*='language-javascript'],
+.c29 code[class*='language-javascript'],
+.c29 pre[class*='language-jsx'],
+.c29 code[class*='language-jsx'],
+.c29 pre[class*='language-typescript'],
+.c29 code[class*='language-typescript'],
+.c29 pre[class*='language-tsx'],
+.c29 code[class*='language-tsx'] {
+  color: #9cdcfe;
+}
+
+.c29 pre[class*='language-css'],
+.c29 code[class*='language-css'] {
+  color: #ce9178;
+}
+
+.c29 pre[class*='language-html'],
+.c29 code[class*='language-html'] {
+  color: #d4d4d4;
+}
+
+.c29 .language-regex .token.anchor {
+  color: #dcdcaa;
+}
+
+.c29 .language-html .token.punctuation {
+  color: #808080;
+}
+
+.c29 pre[class*='language-'] > code[class*='language-'] {
+  position: relative;
+  z-index: 1;
+}
+
+.c29 .line-highlight.line-highlight {
+  background: #f7ebc6;
+  box-shadow: inset 5px 0 0 #f7d87c;
+  z-index: 0;
 }
 
 .c22 {
   width: 100%;
   margin: 0 auto;
   padding: 0 3.2rem;
+  max-width: 96rem;
+}
+
+.c28 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3.2rem;
   max-width: 80rem;
 }
 
-.c25 {
-  margin: 2.4rem 0;
+.c32 {
+  margin: 2.4rem auto;
+  max-width: 80rem;
+  padding: 0 3.2rem 0;
 }
 
-.c25 span {
+.c32 span {
   margin: 0 0 0 0.5rem;
 }
 
-.c25 span::before {
+.c32 span::before {
   content: ' ';
 }
 
-.c25 span::after {
+.c32 span::after {
   content: ', ';
 }
 
-.c25 span:last-child::after {
+.c32 span:last-child::after {
   content: '';
 }
 
-.c25 a {
+.c32 a {
   color: #dc143c;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -227,23 +474,23 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c25 a:hover {
+.c32 a:hover {
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
 }
 
-.c27 {
+.c35 {
   text-align: center;
   border-top: 0.1rem solid #DDDDDD;
 }
 
-.c27 a {
+.c35 a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.c28 {
+.c36 {
   position: fixed;
   background: #000000;
   color: #FFFFFF;
@@ -266,13 +513,13 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   z-index: 6;
 }
 
-.c1 {
+.c7 {
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
 }
 
-.c7 {
+.c13 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -286,13 +533,13 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   color: inherit;
 }
 
-.c7 > img {
+.c13 > img {
   width: 15rem;
   height: 15rem;
   border-radius: 50%;
 }
 
-.c10 {
+.c16 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -313,11 +560,11 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   margin: 0 auto;
 }
 
-.c10 .c5 {
+.c16 .c11 {
   margin: 0 0 calc(1.6rem - 1rem);
 }
 
-.c11 {
+.c17 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -329,7 +576,7 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   max-width: 48rem;
 }
 
-.c8 {
+.c14 {
   display: block;
   color: #FFFFFF;
   -webkit-text-decoration: none;
@@ -341,12 +588,12 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c8:hover {
+.c14:hover {
   border-right: 0.5rem solid #dc143c;
   color: #dc143c;
 }
 
-.c2 {
+.c8 {
   background: #000000;
   padding: 3.2rem;
   display: -webkit-box;
@@ -367,12 +614,12 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   overflow-y: hidden;
 }
 
-.c3 {
+.c9 {
   margin: auto;
   width: 100%;
 }
 
-.c4 .c5 {
+.c10 .c11 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -385,11 +632,11 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   margin-bottom: 4.8rem;
 }
 
-.c4 .c5 img {
+.c10 .c11 img {
   border: 0.5rem solid #dc143c;
 }
 
-.c0 {
+.c6 {
   position: fixed;
   top: 2.4rem;
   color: #FFFFFF;
@@ -404,12 +651,92 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   color: #FFFFFF;
 }
 
-.c9 {
+.c1 {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  z-index: 2;
+}
+
+.c2 {
+  position: relative;
+  display: inline-block;
+  width: 5rem;
+  height: 2.5rem;
+  line-height: 0;
+  font-size: 0;
+  overflow: hidden;
+  color: rgba(0,0,0,0);
+}
+
+.c3 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.c3:checked + .c4 {
+  background: #dc143c;
+}
+
+.c3:focus + .c4 {
+  box-shadow: 0 0 1px #dc143c;
+}
+
+.c3:checked + .c4:before {
+  -webkit-transform: translateX(1.9rem);
+  -ms-transform: translateX(1.9rem);
+  transform: translateX(1.9rem);
+  background: #000000;
+}
+
+.c5 {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #DDDDDD;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  border-radius: 2rem;
+  box-shadow: 0 0 1px #000000;
+}
+
+.c5:before {
+  content: '';
+  position: absolute;
+  height: 2.1rem;
+  width: 2.1rem;
+  left: 0.4rem;
+  bottom: 0.2rem;
+  background: #333333;
+  border-radius: 50%;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0 svg.search-ok-icon,
+.c0 svg.search-cancel-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-left: 1rem;
+}
+
+.c0 svg.search-cancel-icon {
+  color: #dc143c;
+}
+
+.c15 {
   margin-top: 6.4rem;
   padding: 0 3.2rem;
 }
 
-.c13 {
+.c19 {
   margin: 0 auto;
   margin-bottom: 4.0rem;
   padding: 0 3.2rem;
@@ -429,44 +756,83 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   justify-content: center;
 }
 
-.c14 {
+.c20 {
   padding: 0.5rem 1.6rem;
+  border-radius: 8rem;
+  width: 100%;
+  background: #DDDDDD;
+  border: none;
+  font-size: 1.6rem;
 }
 
-.c15 {
+.c20::-webkit-input-placeholder {
+  text-align: center;
+}
+
+.c20::-moz-placeholder {
+  text-align: center;
+}
+
+.c20:-ms-input-placeholder {
+  text-align: center;
+}
+
+.c20::placeholder {
+  text-align: center;
+}
+
+.c20:disabled {
+  outline: 0.1rem solid #dc143c;
+}
+
+.c21 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 6.4rem;
 }
 
-.c26 {
+.c34 {
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   padding: 3.2rem;
 }
 
+.c33 {
+  max-width: 80rem;
+  width: 100%;
+  margin: 3.2rem auto;
+  padding: 0 3.2rem;
+}
+
 @media (max-width:768px) {
-  .c18 {
+  .c24 {
     font-size: 4.0rem;
   }
 }
 
 @media (max-width:768px) {
-  .c23 {
+  .c30 {
     font-size: 2rem;
   }
 
-  .c23 .image-style-side {
+  .c30 .image-style-side {
     max-width: 100%;
     float: none;
     margin: 0;
   }
 }
 
+@media print {
+  .c29 pre[class*='language-'],
+  .c29 code[class*='language-'] {
+    text-shadow: none;
+  }
+}
+
 @media (max-width:360px) {
-  .c10 {
+  .c16 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -476,43 +842,60 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
     flex-flow: column wrap;
   }
 
-  .c10 > .c5 {
+  .c16 > .c11 {
     margin: 0 0 2.4rem 0;
   }
 }
 
 @media (max-width:360px) {
-  .c11 {
+  .c17 {
     margin-left: 0;
   }
 }
 
 @media (max-width:768px) {
-  .c2 {
+  .c8 {
     left: -32rem;
   }
 }
 
 @media (max-width:768px) {
-  .c0 {
+  .c6 {
     left: -0.5rem;
   }
 }
 
 <div>
   <div
-    class=""
+    class="c0"
   >
+    <div
+      class="c1"
+    >
+      <label
+        class="c2"
+      >
+        Toggle light and dark modes
+        <input
+          class="c3"
+          type="checkbox"
+          value="Dark mode active"
+        />
+        <span
+          class="c4 c5"
+        />
+      </label>
+    </div>
     <a
       aria-label="Open or close menu"
-      class="c0"
+      class="c6"
       href="#"
       title="Open or close menu"
     >
       <svg
         aria-hidden="true"
         aria-label="Open menu"
-        class="c1"
+        class="c7"
         fill="currentColor"
         focusable="false"
         viewBox="0 0 24 24"
@@ -529,19 +912,19 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
     </a>
     <div
       aria-hidden="true"
-      class="c2"
+      class="c8"
     >
       <nav
-        class="c3"
+        class="c9"
       >
         <div
-          class="c4"
+          class="c10"
         >
           <h1
-            class="c5 c6"
+            class="c11 c12"
           >
             <a
-              class="c7"
+              class="c13"
               href="/"
               target="_self"
             >
@@ -553,14 +936,14 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
           </h1>
         </div>
         <a
-          class="c8"
+          class="c14"
           href="#target"
           target="_self"
         >
           O texto
         </a>
         <a
-          class="c8"
+          class="c14"
           href="#link2"
           target="_blank"
         >
@@ -569,16 +952,16 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
       </nav>
     </div>
     <div
-      class="c9"
+      class="c15"
     >
       <header
-        class="c10"
+        class="c16"
       >
         <h1
-          class="c5 c6"
+          class="c11 c12"
         >
           <a
-            class="c7"
+            class="c13"
             href="/"
             target="_self"
           >
@@ -589,10 +972,10 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
           </a>
         </h1>
         <div
-          class="c11"
+          class="c17"
         >
           <h2
-            class="c5 c12"
+            class="c11 c18"
           >
             Otávio Miranda
           </h2>
@@ -603,49 +986,62 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
       </header>
     </div>
     <div
-      class="c13"
+      class="c19"
     >
-      <form
-        action="/search/"
-        method="get"
+      <input
+        class="c20"
+        name="q"
+        placeholder="Buscar posts"
+        type="search"
+        value=""
+      />
+      <svg
+        aria-hidden="true"
+        aria-label="input enabled"
+        class="c7 search-ok-icon"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <input
-          class="c14"
-          name="q"
-          placeholder="Buscar posts"
-          type="search"
+        <path
+          d="M0 0h24v24H0V0z"
+          fill="none"
         />
-      </form>
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4 8-8z"
+        />
+      </svg>
     </div>
     <div
-      class="c15"
+      class="c21"
     >
       <article
         class=""
       >
         <div
-          class="c16"
+          class="c22"
         >
           <header
-            class="c17"
+            class="c23"
           >
             <h1
-              class="c5 c18"
+              class="c11 c24"
             >
               Vis nobis veritus maluisset id, nonumy adversarium
             </h1>
             <p
-              class="c19"
+              class="c25"
             >
               Fugit aliquip erroribus eu eam, an mel vidit doctus. Vis nobis veritus maluisset id, nonumy adversarium neglegentur est ut. Tation persius pri eu, modo minim fastidii mei no. Ad tota pertinax definiebas eam.
             </p>
             <img
               alt="Vis nobis veritus maluisset id, nonumy adversarium"
-              class="c20"
+              class="c26"
               src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614698965/Ubuntu_gel_by_Midge_Mantissa_Sinnaeve_7caea7ddb4.jpg"
             />
             <div
-              class="c21"
+              class="c27"
             >
               <p>
                 <span>
@@ -694,47 +1090,53 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
           </header>
         </div>
         <div
-          class="c22"
+          class="c28"
         >
           <div
-            class="c23"
+            class="c29"
           >
-            <p>
-              Nostro 
-              <strong>
-                definitiones
-              </strong>
-               (
-              <i>
-                React
-              </i>
-              ) sed cu - 
-              <u>
-                Otávio Miranda
-              </u>
-              . Sea 
-              <code>
-                useEffect
-              </code>
-              , useState dicat fabulas 
-              <a
-                href="https://gist.github.com/luizomf/e7cf0c3d172801225cce694681ecb0ad"
+            <div
+              class="c30"
+            >
+              <p>
+                Nostro 
+                <strong>
+                  definitiones
+                </strong>
+                 (
+                <i>
+                  React
+                </i>
+                ) sed cu - 
+                <u>
+                  Otávio Miranda
+                </u>
+                . Sea 
+                <code>
+                  useEffect
+                </code>
+                , useState dicat fabulas 
+                <a
+                  href="https://gist.github.com/luizomf/e7cf0c3d172801225cce694681ecb0ad"
+                >
+                  consetetur
+                </a>
+                 no, odio deseruisse assueverit mei eu, vis probo nonumes molestie id. Ipsum movet liberavisse an mea, diceret vituperata ne his, delenit apeirian quo ea. Imperdiet percipitur te eos. Per ludus aliquam cu. 
+                <a
+                  href="https://gist.github.com/luizomf/e7cf0c3d172801225cce694681ecb0ad"
+                >
+                  Eos ex tincidunt necessitatibus, timeam theophrastus mel cu
+                </a>
+                . La.
+              </p>
+              <pre
+                class="  language-plaintext"
+                tabindex="0"
               >
-                consetetur
-              </a>
-               no, odio deseruisse assueverit mei eu, vis probo nonumes molestie id. Ipsum movet liberavisse an mea, diceret vituperata ne his, delenit apeirian quo ea. Imperdiet percipitur te eos. Per ludus aliquam cu. 
-              <a
-                href="https://gist.github.com/luizomf/e7cf0c3d172801225cce694681ecb0ad"
-              >
-                Eos ex tincidunt necessitatibus, timeam theophrastus mel cu
-              </a>
-              . La.
-            </p>
-            <pre>
-              <code
-                class="language-plaintext"
-              >
-                import { useEffect, useRef, useState } from 'react';
+                <code
+                  class="  language-plaintext"
+                >
+                  import { useEffect, useRef, useState } from 'react';
 
 const useMyHook = (cb, delay = 1000) =&gt; {
   const savedCb = useRef();
@@ -751,353 +1153,355 @@ const useMyHook = (cb, delay = 1000) =&gt; {
     return () =&gt; clearInterval(interval);
   }, [delay]);
 };
-              </code>
-            </pre>
-            <p>
-              Qui eu 
-              <i>
-                mutat
-              </i>
-               exerci 
-              <span
-                style="background-color:hsl(60,75%,60%);"
-              >
-                dolores
-              </span>
-              , his no 
-              <span
-                style="color:hsl(270,75%,60%);"
-              >
-                repudiare
-              </span>
-               constituam 
-              <s>
-                accommodare
-              </s>
-              , vis ea sint 
-              <u>
-                tempor
-              </u>
-               eirmod. In mei eruditi moderatius, ex per iudico essent repudiandae. In vis vidisse menandri, an has repudiare disputationi delicatissimi. In has wisi justo postulant. Ei viderer ornatus mel, usu an partiendo tincidunt, ea eum brute ullamcorper.
-            </p>
-            <p>
-              10
-              <sup>
-                2
-              </sup>
-              *5
-              <sup>
-                2
-              </sup>
-               - H
-              <sub>
-                2
-              </sub>
-              0
-            </p>
-            <p
-              style="text-align:center;"
-            >
-              <strong>
-                Center: 
-              </strong>
-              Abhorreant reformidans eum an, per equidem repudiandae no, ex cum elitr argumentum persequeris. In eam consul theophrastus delicatissimi, lobortis rationibus efficiendi mea ei, nam natum dolore scripserit ea. Sit partiendo eloquentiam ne. Sea no autem dolores, ridens gloriatur mel cu. Munere nullam epicuri his id, dicam definiebas deterruisset eu vim. Ea veritus deleniti usu, nam ei idque choro volumus, ex nisl aliquam bonorum eam.
-            </p>
-            <p>
-              Fugit aliquip erroribus eu eam, an mel vidit doctus. Vis nobis veritus maluisset id, nonumy adversarium neglegentur est ut. Tation persius pri eu, modo minim fastidii mei no. Ad tota pertinax definiebas eam.
-            </p>
-            <p
-              style="text-align:right;"
-            >
-              <strong>
-                Right:
-              </strong>
-               Mel in lorem feugiat, tation dolore et eum. Id has utamur albucius molestiae. Dico justo maiestatis ei mei, labitur laboramus voluptatum nam ut. Saperet propriae nec an.
-            </p>
-            <p>
-              Quod oblique mei ne, cetero delicatissimi sea cu, cu est harum dicit verterem. Tota forensibus ut usu, luptatum dignissim persecuti vel ex. Mea nostrud instructior cu, et referrentur theophrastus eum. Pro in iuvaret senserit. In persius explicari conceptam nec, in populo ponderum consequat vis. Gloriatur conclusionemque no qui, vitae nominati nec te, laoreet torquatos accommodare ex qui. Eu natum mediocritatem eos, cum ex alia oportere.
-            </p>
-            <p
-              style="text-align:justify;"
-            >
-              <strong>
-                Justify:
-              </strong>
-               Cu vis nonumes petentium disputationi, invidunt aliquando ex ius, ocurreret suscipiantur conclusionemque eu qui. Probo nemore ut est. Et eam dicta oratio eligendi. Quem dicta dolore vel et, at reque gloriatur definitionem sed.
-            </p>
-            <p>
-              Nec simul ullamcorper at. Mea possit dolores persecuti te, ei quidam apeirian quo. Has quas corpora ne. Ius ad malis iusto delenit, sit ferri idque ex.
-            </p>
-            <blockquote>
+                </code>
+              </pre>
               <p>
-                Blockquote: Et sed legere rationibus, vitae evertitur ad eam. Eu amet vero officiis vis. Ad nullam pericula neglegentur sit, vix ei regione legendos argumentum. Mei an quas convenire, nobis dicunt mei ut. Pro no debet referrentur, ei est falli libris. Eu per summo salutandi hendrerit, salutatus democritum interesset nec ut. Wisi lobortis incorrupte ei mea, explicari interpretaris has et.
+                Qui eu 
+                <i>
+                  mutat
+                </i>
+                 exerci 
+                <span
+                  style="background-color:hsl(60,75%,60%);"
+                >
+                  dolores
+                </span>
+                , his no 
+                <span
+                  style="color:hsl(270,75%,60%);"
+                >
+                  repudiare
+                </span>
+                 constituam 
+                <s>
+                  accommodare
+                </s>
+                , vis ea sint 
+                <u>
+                  tempor
+                </u>
+                 eirmod. In mei eruditi moderatius, ex per iudico essent repudiandae. In vis vidisse menandri, an has repudiare disputationi delicatissimi. In has wisi justo postulant. Ei viderer ornatus mel, usu an partiendo tincidunt, ea eum brute ullamcorper.
               </p>
-            </blockquote>
-            <p>
-              A new line:
-            </p>
-            <hr />
-            <p>
-              Now keep going…
-            </p>
-            <figure
-              class="image"
-            >
-              <a
-                href="https://gist.github.com/luizomf/e7cf0c3d172801225cce694681ecb0ad"
+              <p>
+                10
+                <sup>
+                  2
+                </sup>
+                *5
+                <sup>
+                  2
+                </sup>
+                 - H
+                <sub>
+                  2
+                </sub>
+                0
+              </p>
+              <p
+                style="text-align:center;"
+              >
+                <strong>
+                  Center: 
+                </strong>
+                Abhorreant reformidans eum an, per equidem repudiandae no, ex cum elitr argumentum persequeris. In eam consul theophrastus delicatissimi, lobortis rationibus efficiendi mea ei, nam natum dolore scripserit ea. Sit partiendo eloquentiam ne. Sea no autem dolores, ridens gloriatur mel cu. Munere nullam epicuri his id, dicam definiebas deterruisset eu vim. Ea veritus deleniti usu, nam ei idque choro volumus, ex nisl aliquam bonorum eam.
+              </p>
+              <p>
+                Fugit aliquip erroribus eu eam, an mel vidit doctus. Vis nobis veritus maluisset id, nonumy adversarium neglegentur est ut. Tation persius pri eu, modo minim fastidii mei no. Ad tota pertinax definiebas eam.
+              </p>
+              <p
+                style="text-align:right;"
+              >
+                <strong>
+                  Right:
+                </strong>
+                 Mel in lorem feugiat, tation dolore et eum. Id has utamur albucius molestiae. Dico justo maiestatis ei mei, labitur laboramus voluptatum nam ut. Saperet propriae nec an.
+              </p>
+              <p>
+                Quod oblique mei ne, cetero delicatissimi sea cu, cu est harum dicit verterem. Tota forensibus ut usu, luptatum dignissim persecuti vel ex. Mea nostrud instructior cu, et referrentur theophrastus eum. Pro in iuvaret senserit. In persius explicari conceptam nec, in populo ponderum consequat vis. Gloriatur conclusionemque no qui, vitae nominati nec te, laoreet torquatos accommodare ex qui. Eu natum mediocritatem eos, cum ex alia oportere.
+              </p>
+              <p
+                style="text-align:justify;"
+              >
+                <strong>
+                  Justify:
+                </strong>
+                 Cu vis nonumes petentium disputationi, invidunt aliquando ex ius, ocurreret suscipiantur conclusionemque eu qui. Probo nemore ut est. Et eam dicta oratio eligendi. Quem dicta dolore vel et, at reque gloriatur definitionem sed.
+              </p>
+              <p>
+                Nec simul ullamcorper at. Mea possit dolores persecuti te, ei quidam apeirian quo. Has quas corpora ne. Ius ad malis iusto delenit, sit ferri idque ex.
+              </p>
+              <blockquote>
+                <p>
+                  Blockquote: Et sed legere rationibus, vitae evertitur ad eam. Eu amet vero officiis vis. Ad nullam pericula neglegentur sit, vix ei regione legendos argumentum. Mei an quas convenire, nobis dicunt mei ut. Pro no debet referrentur, ei est falli libris. Eu per summo salutandi hendrerit, salutatus democritum interesset nec ut. Wisi lobortis incorrupte ei mea, explicari interpretaris has et.
+                </p>
+              </blockquote>
+              <p>
+                A new line:
+              </p>
+              <hr />
+              <p>
+                Now keep going…
+              </p>
+              <figure
+                class="image"
+              >
+                <a
+                  href="https://gist.github.com/luizomf/e7cf0c3d172801225cce694681ecb0ad"
+                >
+                  <img
+                    alt="O alt text da imagem"
+                    src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614696630/Frozen_sunset_on_the_lake_by_Manuel_Arslanyan_9f9cd8ea10.jpg"
+                  />
+                </a>
+                <figcaption>
+                  Aqui está uma imagem
+                </figcaption>
+              </figure>
+              <p>
+                Munere euripidis an sed, usu ne consul soluta utamur. Bonorum equidem placerat eu cum, tantas quidam duo et. Pro soleat quaestio ne, ut nam wisi vocibus inciderint, ex his maiorum mnesarchum. Et est wisi primis, id vel odio alienum voluptatibus. Veri doctus offendit vim ea. Has nemore prompta inciderint ei, no sea expetendis dissentiet. Copiosae delicatissimi an sea, id cum agam clita nostro, tale tincidunt delicatissimi ei eos.
+              </p>
+              <figure
+                class="image image-style-side"
               >
                 <img
-                  alt="O alt text da imagem"
+                  alt="Uma imagem à direita"
                   src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614696630/Frozen_sunset_on_the_lake_by_Manuel_Arslanyan_9f9cd8ea10.jpg"
                 />
-              </a>
-              <figcaption>
-                Aqui está uma imagem
-              </figcaption>
-            </figure>
-            <p>
-              Munere euripidis an sed, usu ne consul soluta utamur. Bonorum equidem placerat eu cum, tantas quidam duo et. Pro soleat quaestio ne, ut nam wisi vocibus inciderint, ex his maiorum mnesarchum. Et est wisi primis, id vel odio alienum voluptatibus. Veri doctus offendit vim ea. Has nemore prompta inciderint ei, no sea expetendis dissentiet. Copiosae delicatissimi an sea, id cum agam clita nostro, tale tincidunt delicatissimi ei eos.
-            </p>
-            <figure
-              class="image image-style-side"
-            >
-              <img
-                alt="Uma imagem à direita"
-                src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614696630/Frozen_sunset_on_the_lake_by_Manuel_Arslanyan_9f9cd8ea10.jpg"
-              />
-              <figcaption>
-                Uma imagem à direita
-              </figcaption>
-            </figure>
-            <p>
-              Munere euripidis an sed, usu ne consul soluta utamur. Bonorum equidem placerat eu cum, tantas quidam duo et. Pro soleat quaestio ne, ut nam wisi vocibus inciderint, ex his maiorum mnesarchum. Et est wisi primis, id vel odio alienum voluptatibus. Veri doctus offendit vim ea. Has nemore prompta inciderint ei, no sea expetendis dissentiet. Copiosae delicatissimi an sea, id cum agam clita nostro, tale tincidunt delicatissimi ei eos.
-            </p>
-            <p>
-              Munere euripidis an sed, usu ne consul soluta utamur. Bonorum equidem placerat eu cum, tantas quidam duo et. Pro soleat quaestio ne, ut nam wisi vocibus inciderint, ex his maiorum mnesarchum. Et est wisi primis, id vel odio alienum voluptatibus. Veri doctus offendit vim ea. Has nemore prompta inciderint ei, no sea expetendis dissentiet. Copiosae delicatissimi an sea, id cum agam clita nostro, tale tincidunt delicatissimi ei eos.
-            </p>
-            <p>
-              Solum consul scripserit in duo, an sit postea denique percipit. Facer ignota consequat nec ei, idque etiam corrumpit sit ut. In mucius definitionem quo, vis an nisl diam appellantur, hendrerit comprehensam ea per. Vix saepe fierent ut.
-            </p>
-            <p>
-              Cu mei summo copiosae. Et vim quaestio partiendo. Quot praesent imperdiet at duo. Sit probo causae ei. Ad ius nemore eruditi.
-            </p>
-            <p>
-              Mei in qualisque disputando. Adipisci philosophia et sed, mel diceret patrioque sententiae ea, iriure posidonium consectetuer ad eam. Nobis reprimique duo in, eam corpora mandamus ex. In quod euismod eum, ne habemus cotidieque necessitatibus cum. Liber recteque duo no, ludus reprehendunt has an.
-            </p>
-            <p>
-              Solum consul scripserit in duo, an sit postea denique percipit. Facer ignota consequat nec ei, idque etiam corrumpit sit ut. In mucius definitionem quo, vis an nisl diam appellantur, hendrerit comprehensam ea per. Vix saepe fierent ut.
-            </p>
-            <p>
-              Cu mei summo copiosae. Et vim quaestio partiendo. Quot praesent imperdiet at duo. Sit probo causae ei. Ad ius nemore eruditi.
-            </p>
-            <p>
-              Mei in qualisque disputando. Adipisci philosophia et sed, mel diceret patrioque sententiae ea, iriure posidonium consectetuer ad eam. Nobis reprimique duo in, eam corpora mandamus ex. In quod euismod eum, ne habemus cotidieque necessitatibus cum. Liber recteque duo no, ludus reprehendunt has an.
-            </p>
-            <p>
-              Bullet:
-            </p>
-            <ul>
-              <li>
+                <figcaption>
+                  Uma imagem à direita
+                </figcaption>
+              </figure>
+              <p>
+                Munere euripidis an sed, usu ne consul soluta utamur. Bonorum equidem placerat eu cum, tantas quidam duo et. Pro soleat quaestio ne, ut nam wisi vocibus inciderint, ex his maiorum mnesarchum. Et est wisi primis, id vel odio alienum voluptatibus. Veri doctus offendit vim ea. Has nemore prompta inciderint ei, no sea expetendis dissentiet. Copiosae delicatissimi an sea, id cum agam clita nostro, tale tincidunt delicatissimi ei eos.
+              </p>
+              <p>
+                Munere euripidis an sed, usu ne consul soluta utamur. Bonorum equidem placerat eu cum, tantas quidam duo et. Pro soleat quaestio ne, ut nam wisi vocibus inciderint, ex his maiorum mnesarchum. Et est wisi primis, id vel odio alienum voluptatibus. Veri doctus offendit vim ea. Has nemore prompta inciderint ei, no sea expetendis dissentiet. Copiosae delicatissimi an sea, id cum agam clita nostro, tale tincidunt delicatissimi ei eos.
+              </p>
+              <p>
+                Solum consul scripserit in duo, an sit postea denique percipit. Facer ignota consequat nec ei, idque etiam corrumpit sit ut. In mucius definitionem quo, vis an nisl diam appellantur, hendrerit comprehensam ea per. Vix saepe fierent ut.
+              </p>
+              <p>
+                Cu mei summo copiosae. Et vim quaestio partiendo. Quot praesent imperdiet at duo. Sit probo causae ei. Ad ius nemore eruditi.
+              </p>
+              <p>
                 Mei in qualisque disputando. Adipisci philosophia et sed, mel diceret patrioque sententiae ea, iriure posidonium consectetuer ad eam. Nobis reprimique duo in, eam corpora mandamus ex. In quod euismod eum, ne habemus cotidieque necessitatibus cum. Liber recteque duo no, ludus reprehendunt has an.
-              </li>
-              <li>
-                iriure posidonium consectetuer ad eam.
-              </li>
-              <li>
-                Nobis reprimique duo in, eam corpora mandamus
-              </li>
-              <li>
-                ex. In
-              </li>
-              <li>
-                quod euismod
-              </li>
-              <li>
-                eum, ne habemus cotidieque necessitatibus cum.
-              </li>
-              <li>
-                Liber recteque duo no, ludus reprehendunt has an.
-              </li>
-            </ul>
-            <p>
-              Now ordered:
-            </p>
-            <ol>
-              <li>
-                Item 1
-              </li>
-              <li>
-                Item
-              </li>
-              <li>
-                Item
-              </li>
-              <li>
-                Item
-              </li>
-            </ol>
-            <p>
-              A think that's it…
-            </p>
-            <figure
-              class="table"
-            >
-              <table>
-                <thead>
-                  <tr>
-                    <th>
-                      Title 1
-                    </th>
-                    <th>
-                      Title 1
-                    </th>
-                    <th>
-                      Title 1
-                    </th>
-                    <th>
-                      Title 1
-                    </th>
-                    <th>
-                      Title 1
-                    </th>
-                    <th>
-                      Title 1
-                    </th>
-                    <th>
-                      Title 1
-                    </th>
-                    <th>
-                      Title 1
-                    </th>
-                    <th>
-                      Title 1
-                    </th>
-                    <th>
-                      Title 1
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                    <td>
-                      Item
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </figure>
-            <p>
-              A video:
-            </p>
-            <figure
-              class="media"
-            >
-              <oembed
-                url="https://www.youtube.com/watch?v=oLmRV25eQvo"
-              />
-            </figure>
-            <p>
-              The end.
-            </p>
+              </p>
+              <p>
+                Solum consul scripserit in duo, an sit postea denique percipit. Facer ignota consequat nec ei, idque etiam corrumpit sit ut. In mucius definitionem quo, vis an nisl diam appellantur, hendrerit comprehensam ea per. Vix saepe fierent ut.
+              </p>
+              <p>
+                Cu mei summo copiosae. Et vim quaestio partiendo. Quot praesent imperdiet at duo. Sit probo causae ei. Ad ius nemore eruditi.
+              </p>
+              <p>
+                Mei in qualisque disputando. Adipisci philosophia et sed, mel diceret patrioque sententiae ea, iriure posidonium consectetuer ad eam. Nobis reprimique duo in, eam corpora mandamus ex. In quod euismod eum, ne habemus cotidieque necessitatibus cum. Liber recteque duo no, ludus reprehendunt has an.
+              </p>
+              <p>
+                Bullet:
+              </p>
+              <ul>
+                <li>
+                  Mei in qualisque disputando. Adipisci philosophia et sed, mel diceret patrioque sententiae ea, iriure posidonium consectetuer ad eam. Nobis reprimique duo in, eam corpora mandamus ex. In quod euismod eum, ne habemus cotidieque necessitatibus cum. Liber recteque duo no, ludus reprehendunt has an.
+                </li>
+                <li>
+                  iriure posidonium consectetuer ad eam.
+                </li>
+                <li>
+                  Nobis reprimique duo in, eam corpora mandamus
+                </li>
+                <li>
+                  ex. In
+                </li>
+                <li>
+                  quod euismod
+                </li>
+                <li>
+                  eum, ne habemus cotidieque necessitatibus cum.
+                </li>
+                <li>
+                  Liber recteque duo no, ludus reprehendunt has an.
+                </li>
+              </ul>
+              <p>
+                Now ordered:
+              </p>
+              <ol>
+                <li>
+                  Item 1
+                </li>
+                <li>
+                  Item
+                </li>
+                <li>
+                  Item
+                </li>
+                <li>
+                  Item
+                </li>
+              </ol>
+              <p>
+                A think that's it…
+              </p>
+              <figure
+                class="table"
+              >
+                <table>
+                  <thead>
+                    <tr>
+                      <th>
+                        Title 1
+                      </th>
+                      <th>
+                        Title 1
+                      </th>
+                      <th>
+                        Title 1
+                      </th>
+                      <th>
+                        Title 1
+                      </th>
+                      <th>
+                        Title 1
+                      </th>
+                      <th>
+                        Title 1
+                      </th>
+                      <th>
+                        Title 1
+                      </th>
+                      <th>
+                        Title 1
+                      </th>
+                      <th>
+                        Title 1
+                      </th>
+                      <th>
+                        Title 1
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                      <td>
+                        Item
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </figure>
+              <p>
+                A video:
+              </p>
+              <figure
+                class="media"
+              >
+                <oembed
+                  url="https://www.youtube.com/watch?v=oLmRV25eQvo"
+                />
+              </figure>
+              <p>
+                The end.
+              </p>
+            </div>
+            ;
           </div>
         </div>
       </article>
       <div
-        class="c24"
+        class="c31"
       >
         <p
-          class="c25"
+          class="c32"
         >
           tags:
           <span>
@@ -1116,31 +1520,43 @@ const useMyHook = (cb, delay = 1000) =&gt; {
           </span>
         </p>
       </div>
-    </div>
-    <div
-      class="c26"
-    >
-      <footer
-        class="c27"
+      <div
+        class="c33"
       >
         <div
-          class="c23"
+          id="disqus_thread"
+        />
+      </div>
+    </div>
+    <div
+      class="c34"
+    >
+      <footer
+        class="c35"
+      >
+        <div
+          class="c29"
         >
-          <p>
-            O texto da footer
-          </p>
+          <div
+            class="c30"
+          >
+            <p>
+              O texto da footer
+            </p>
+          </div>
+          ;
         </div>
       </footer>
     </div>
     <a
       aria-label="Go to top"
-      class="c28"
+      class="c36"
       href="#"
       title="Go to top"
     >
       <svg
         aria-hidden="true"
-        class="c1"
+        class="c7"
         fill="currentColor"
         focusable="false"
         viewBox="0 0 24 24"
