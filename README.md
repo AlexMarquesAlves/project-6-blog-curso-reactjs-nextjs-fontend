@@ -1,3 +1,12 @@
+# IMAGENS EXEMPLO
+
+![Tema-claro](https://res.cloudinary.com/dbjegw4i5/image/upload/v1641275253/Captura_de_Tela_7_wytfwm.png)
+
+![Tema-escuro](https://res.cloudinary.com/dbjegw4i5/image/upload/v1641275254/Captura_de_Tela_6_n9mzpj.png)
+
+![Grid-post](https://res.cloudinary.com/dbjegw4i5/image/upload/v1641275254/Captura_de_Tela_8_kcrrlr.png)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
