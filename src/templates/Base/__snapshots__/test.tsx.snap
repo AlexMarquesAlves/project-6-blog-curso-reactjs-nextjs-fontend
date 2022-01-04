@@ -6,6 +6,10 @@ exports[`<BaseTemplate /> should render base elements 1`] = `
   line-height: 1.5;
 }
 
+.c25 iframe[src*='ads'] {
+  display: none;
+}
+
 .c25 p {
   margin: 2.4rem 0;
 }

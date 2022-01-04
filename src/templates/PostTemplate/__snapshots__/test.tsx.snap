@@ -80,6 +80,10 @@ exports[`<PostTemplate /> should match snapshot 1`] = `
   line-height: 1.5;
 }
 
+.c30 iframe[src*='ads'] {
+  display: none;
+}
+
 .c30 p {
   margin: 2.4rem 0;
 }
